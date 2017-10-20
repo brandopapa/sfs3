@@ -5,4 +5,7 @@ data/photo/student
 data/temp/score
 data/Module_Path.txt
 data/system/clean_templates_c
+data/school/title_img
+data/stud_report
+data/templates_c
 *.cache
