@@ -50,7 +50,8 @@ if($_POST['act']=='刪除選取' and $_POST['sn']){
 */
 //抓取畢業年度列表
 $grad_year_radio='畢業年度：';
-$sql="SELECT DISTINCT stud_grad_year FROM grad_stud";
+$sql="SELECT DISTINCT stud_grad_year FROM grad_stud ORDER BY stud_grad_year";
+/* 20171125 Update by Brando Chang 上述畢業生年度改為遞增排序*/
 $rs=$CONN->Execute($sql) or user_error("讀取失敗！<br>$sql",256);
 while(!$rs->EOF) {
 	$grad_year=$rs->fields['stud_grad_year'];
