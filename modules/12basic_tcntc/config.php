@@ -33,7 +33,7 @@ $disadvantage_level=array(0=>'無 ',1=>'中低收入戶',2=>'低收入戶');
 $balance_score=4;
 $balance_score_max=12;
 //$balance_semester=array('1011','1012');  //試探系統
-$balance_semester=array('1021','1022','1031','1032','1041');  //實際報名
+$balance_semester=array('1041','1042','1051','1052','1061');  //實際報名
 
 $balance_area=array('health','art','complex');
 
@@ -42,13 +42,13 @@ $association_semester_count=1;
 $association_semester_score_qualtified=0; //0代表有參加就及格
 $association_semester_score=1;
 $association_score_max=2;
-$association_date_limit='2016-04-29';   //2016/1/6新增 (資料表無日期無法限定)
+$association_date_limit='2018-06-30';   //2016/1/6新增 (資料表無日期無法限定)
 
 //服務學習級分得分
 $service_semester_minutes=360;
 $service_semester_score=1;
 $service_score_max=3;
-$service_date_limit='2016-04-29';   //2016/1/6新增
+$service_date_limit='2018-06-30';   //2016/1/6新增
 
 //無記過紀錄
 //$fault_semester=array('1011','1012','1021','1022','1031');
@@ -56,11 +56,11 @@ $service_date_limit='2016-04-29';   //2016/1/6新增
 $fault_none=6;
 $fault_warning=3;
 $fault_peccadillo=3;
-$fault_date_limit='2016-04-29';   //2016/1/6新增 (無記過記錄改為以日期判定)
+$fault_date_limit='2018-06-30';   //2016/1/6新增 (無記過記錄改為以日期判定)
 
 //獎勵紀錄
 //$reward_semester=array('1011','1012','1021','1022','1031');
-$reward_semester=array('1021','1022','1031','1032','1041');
+$reward_semester=array('1041','1042','1051','1052','1061');
 $reward_score[1]=0.5;
 $reward_score[3]=1;
 $reward_score[9]=3;

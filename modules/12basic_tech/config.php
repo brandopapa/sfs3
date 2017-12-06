@@ -19,7 +19,7 @@ $graduate_year=$IS_JHORES?9:6;
 //均衡學習單一領域及格積分得分
 $balance_score=2;
 $balance_score_max=6;
-$balance_semester=array('1011','1012','1021','1022','1031');
+$balance_semester=array('1041','1042','1051','1052','1061');
 $balance_area=array('health','art','complex');
 
 
@@ -130,7 +130,7 @@ $spe_bonus_arr=array('第一名'=>4,'冠軍'=>4,'金牌'=>4,'特優'=>4,'第二名'=>3,'亞軍
 $fitness_score_one=2;
 //$fitness_score_one_max=4;
 //$fitness_addon=array('gold'=>2,'silver'=>1,'copper'=>0.5);
-$fitness_semester="'1011','1012','1021','1022','1031','1032'";
+$fitness_semester="'1041','1042','1051','1052','1061','1062'";
 $fitness_score_max=6;
 //$fitness_medal=array('gold'=>'金','silver'=>'銀','copper'=>'銅','no'=>'--');
 

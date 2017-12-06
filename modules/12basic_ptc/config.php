@@ -28,7 +28,7 @@ $rank_score_array=explode(',',$rank_score);
 //均衡學習單一領域及格積分得分
 $balance_score=3;
 $balance_score_max=9;
-$balance_semester=array('1021','1022','1031','1032','1041');   //2015-10-30校對修改
+$balance_semester=array('1041','1042','1051','1052','1061');   //2015-10-30校對修改
 $balance_area=array('health','art','complex');
 
 
@@ -40,7 +40,7 @@ $leader_semester=array('7-1','7-2','8-1','8-2','9-1');
 
 //社團社長
 $association_leader=2;    //2014-11-23校對修改
-$association_semester="'1021','1022','1031','1032','1041'";  //2015-10-30校對修改
+$association_semester="'1041','1042','1051','1052','1061'";  //2015-10-30校對修改
 
 $service_score_max=10;  //2014-11-23校對修改
 

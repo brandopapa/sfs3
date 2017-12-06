@@ -38,13 +38,13 @@ $nearby_level=array(1=>'符合',0=>'不符合');
 //品德服務積分
 //獎勵紀錄
 $reward_kind=array(1=>'嘉獎一次',2=>'嘉獎二次',3=>'小功\一次',4=>'小功\二次',5=>'大功\一次',6=>'大功\二次',7=>'大功\三次',-1=>'警告一次',-2=>'警告二次',-3=>'小過一次',-4=>'小過二次',-5=>'大過一次',-6=>'大過二次',-7=>'大過三次');		//獎懲類別
-$reward_semester="'1031','1032','1041','1042','1051'";		//獎懲紀錄取用學期(取國1~國3上)
+$reward_semester="'1041','1042','1051','1052','1061'";		//獎懲紀錄取用學期(取國1~國3上)
 $reward_score[1]=0.5;
 $reward_score[3]=1.5;
 $reward_score[9]=4.5;
 $reward_score_max=15;
 //無記過紀錄
-$fault_start_semester=1031;		//開始採計學期
+$fault_start_semester=1041;		//開始採計學期
 $fault_none=5;
 $fault_warning=1;
 //$fault_peccadillo=0;
@@ -52,7 +52,7 @@ $fault_score_max=5;
 //出缺席紀錄
 $absence_score='5,3,3,3,3,3,1,1,1,1,1';
 $absence_score_array=explode(',',$absence_score);
-$absence_semester="'1031','1032','1041','1042','1051'";		//取國1~國3上
+$absence_semester="'1041','1042','1051','1052','1061'";		//取國1~國3上
 //$absence_semester="'1011','1012','1021'";		//取國2~國3上
 $absence_score_max=5;
 
@@ -60,7 +60,7 @@ $absence_score_max=5;
 //均衡學習單一領域及格積分得分
 $balance_score=3;
 $balance_score_max=9;
-$balance_semester=array('1031','1032','1041','1042','1051');     //取國1~國3上
+$balance_semester=array('1041','1042','1051','1052','1061');     //取國1~國3上
 $balance_area=array('health','art','complex');
 /*
 //社團積分得分(中投)
@@ -92,7 +92,7 @@ $race_score_max=9;
 $fitness_score_one=3;
 $fitness_score_one_max=6;
 $fitness_addon=array('gold'=>0,'silver'=>0,'copper'=>0);
-$fitness_semester="'1031','1032','1041','1042','1051'";		//取國1~國3上
+$fitness_semester="'1041','1042','1051','1052','1061'";		//取國1~國3上
 $fitness_score_max=6;
 $fitness_medal=array('gold'=>'金','silver'=>'銀','copper'=>'銅','no'=>'--');
 
