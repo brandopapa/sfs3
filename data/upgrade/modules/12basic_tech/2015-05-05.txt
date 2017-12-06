@@ -1,0 +1,2 @@
+增加會考准考證號欄位成功  -- by smallduh (2015-05-05)
+ALTER TABLE `12basic_tech` ADD `acad_exam_reg_num` varchar( 10 ) NULL DEFAULT '';

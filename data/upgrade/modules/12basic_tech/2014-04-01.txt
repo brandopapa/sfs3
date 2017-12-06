@@ -1,2 +1,2 @@
-增加報名學校註記欄位成功  -- by infodaes (2014-04-01)
+增加報名學校註記欄位失敗 -- by infodaes (2014-04-01)
 ALTER TABLE `12basic_tech` ADD `signup_north` varchar( 3 ) NULL DEFAULT '000',ADD `signup_central` varchar( 3 ) NULL DEFAULT '000',ADD `signup_south` varchar( 3 ) NULL DEFAULT '000',ADD `signup_memo` TEXT NULL ;

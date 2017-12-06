@@ -9,15 +9,15 @@ $old_error_handler = set_error_handler("error_die");
  系統設定
 ***********************************/
 //程式根目錄 PATH
-$SFS_PATH = "/home/sfs6/dev2.sfs3.bwsh.kindn.es";
+$SFS_PATH = "/home/sfs6/dev4.bwjh.ylc.edu.tw";
 
 //學務管理首頁程式 URL (設定時，保留最後的 "/" )
 //$SFS_PATH_HTML ="http://dev2.sfs3.bwsh.kindn.es/"; 
-$SFS_PATH_HTML = "http://sfs3.bwlot.us/";
+$SFS_PATH_HTML = "http://dev4.bwjh.ylc.edu.tw/";
 
 //學校首頁 URL
 //$HOME_URL ="http://dev2.sfs3.bwsh.kindn.es/";
-$HOME_URL = "http://sfs3.bwlot.us/";
+$HOME_URL = "http://dev4.bwjh.ylc.edu.tw/";
 
 //學校IP 範圍
 /*半個c class 設定 (起始IP 與 結束IP 以 - 隔開)
@@ -32,7 +32,8 @@ $HOME_IP = array("::1.."); // 一個 c class
   MYSQL 連接設定
 ***********************************/
 // mysql 主機
-$mysql_host ="mysql.kindn.es";
+//$mysql_host ="mysql.kindn.es";
+$mysql_host ="localhost";
 
 // mysql 使用者
 $mysql_user ="bwsh_sfs3";
@@ -41,14 +42,15 @@ $mysql_user ="bwsh_sfs3";
 $mysql_pass ="kHdsnbcf";
 
 // 資料庫名稱
-$mysql_db   ="bwsh_sfs3_dev2";
+$mysql_db   ="bwsh_sfs3_dev4";
 
 
 /**********************************
   上載檔案設定
 ***********************************/
 //上載檔案放置位置，上載目錄權限需設為 777
-$UPLOAD_PATH = "/home/sfs6/dev2.sfs3.bwsh.kindn.es/data/";
+//$UPLOAD_PATH = "/home/sfs6/dev2.sfs3.bwsh.kindn.es/data/";
+$UPLOAD_PATH = "/home/sfs6/dev4.bwjh.ylc.edu.tw/data/";
 
 //別名 (alias)  apache 在設定檔 httpd.conf 中加入  WIN32 在IIS管理員中設定
 $UPLOAD_URL = "/data/";

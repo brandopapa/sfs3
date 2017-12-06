@@ -1,2 +1,0 @@
-身心障礙代碼欄位改為文字型態 失敗 -- by infodaes (2013-10-04)
-ALTER TABLE `12basic_ptc` CHANGE `disability_id` `disability_id` VARCHAR( 1 ) NULL DEFAULT NULL ;
