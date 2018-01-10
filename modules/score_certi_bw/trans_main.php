@@ -190,7 +190,8 @@
 				} else
 					$temp_arr["c".$k."_".$i.$j]="---";
 				if ($ss_score[$ss])	{
-					$ssscore=number_format($ss_score[$ss]/$rate[$ss],2);
+					//2017-12-16 Update by Brando, modify floating point number 2 t0 1
+					$ssscore=number_format($ss_score[$ss]/$rate[$ss],1);
 					$temp_arr["s".$k."_".$i.$j]=$ssscore;
 					$temp_arr["f".$k."_".$i.$j]=sc2str($ssscore,$rule);
 					$temp_arr["e".$k."_".$i.$j]=sc2grade($ssscore);
@@ -214,7 +215,8 @@
 			else
 				$temp_arr["cavg_".$i.$j]="---";
 			if ($sum_s) {
-				$ssscore=number_format($sum_s/$sum_c,2);
+				//2017-12-16 Update by Brando, modify floating point number 2 t0 1
+				$ssscore=number_format($sum_s/$sum_c,1);
 				$temp_arr["savg_".$i.$j]=$ssscore;
 				$temp_arr["favg_".$i.$j]=sc2str($ssscore,$rule);
 			} else {
