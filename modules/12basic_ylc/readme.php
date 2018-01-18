@@ -17,15 +17,19 @@ $help_doc="<p class='MsoNormal' style='text-indent: -17.85pt; line-height: 20.0p
 </span></p>
 <p class='MsoNormal' style='text-indent: -17.85pt; line-height: 20.0pt; margin-left: 35.7pt'>
 <span lang='EN-US' style='font-size: 10.0pt; font-family: Symbol'>·<span style='font:7.0pt &quot;Times New Roman&quot;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size: 14.0pt; font-family: 標楷體'>雲林區高中職免試入學作業要點：<span lang='EN-US'><a style='color: blue; text-decoration: underline; text-underline: single' target='_BLANK' href='https://sites.google.com/site/tnbe12/no3'><span style='color: #0000CC; text-decoration: none'>https://sites.google.com/site/tnbe12/no3</span></a></span></span><span lang='EN-US' style='font-size: 14.0pt; font-family: 新細明體,serif'>
+</span></span><span style='font-size: 14.0pt; font-family: 標楷體'>雲林縣十二年國民基本教育資訊網：<span lang='EN-US'><a style='color: blue; text-decoration: underline; text-underline: single' target='_BLANK' href='https://sites.google.com/a/ms.tnjh.ylc.edu.tw/ylc12/'><span style='color: #0000CC; text-decoration: none'>https://sites.google.com/a/ms.tnjh.ylc.edu.tw/ylc12/</span></a></span></span><span lang='EN-US' style='font-size: 14.0pt; font-family: 新細明體,serif'>
 </span></p>
 <p class='MsoNormal' style='text-indent: -17.85pt; line-height: 20.0pt; margin-left: 35.7pt'>
 <span lang='EN-US' style='font-size: 10.0pt; font-family: Symbol'>·<span style='font:7.0pt &quot;Times New Roman&quot;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size: 14.0pt; font-family: 標楷體'>雲林區免試入學及其相關應用模組操作說明：<span lang='EN-US'><a style='color: blue; text-decoration: underline; text-underline: single' target='_BLANK' href='https://docs.google.com/document/d/13W2yDbyK92Md_1a8VZlh-gB9l-VP5MDMoVqQniwKOSE/edit?pli=1'><span style='color: #0000CC; text-decoration: none'>https://sites.google.com/site/tnbe12/no11/no11a</span></a></span></span><span lang='EN-US' style='font-size: 14.0pt; font-family: 新細明體,serif'>
+</span></span><span style='font-size: 14.0pt; font-family: 標楷體'>雲林區免試入學及其相關應用模組操作說明：<span lang='EN-US'><a style='color: blue; text-decoration: underline; text-underline: single' target='_BLANK' href='https://docs.google.com/document/d/11WsWFk59BC7Sbi1YLAEdbXbk7iPpTdIwqLA9JbKQOvI/edit?usp=sharing'><span style='color: #0000CC; text-decoration: none'>https://docs.google.com/document/d/11WsWFk59BC7Sbi1YLAEdbXbk7iPpTdIwqLA9JbKQOvI/edit?usp=sharing</span></a></span></span><span lang='EN-US' style='font-size: 14.0pt; font-family: 新細明體,serif'>
 </span></p>
 <p class='MsoNormal' style='text-indent: -17.85pt; line-height: 20.0pt; margin-left: 35.7pt'>
 <span lang='EN-US' style='font-size: 10.0pt; font-family: Symbol'>·<span style='font:7.0pt &quot;Times New Roman&quot;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span style='font-size: 14.0pt; font-family: 標楷體'>103學年度雲林區高級中等學校免試入學報名平臺：<span lang='EN-US'><a style='color: blue; text-decoration: underline; text-underline: single' target='_BLANK' href='http://210.71.254.151/NoExamImitate_Yl/News.aspx'><span style='color: #0000CC; text-decoration: none'>http://210.71.254.151/NoExamImitate_Yl/News.aspx</span></a></span></span><span lang='EN-US' style='font-size: 14.0pt; font-family: 新細明體,serif'>
+</span></span><span style='font-size: 14.0pt; font-family: 標楷體'>雲林區免試入學12年國教超額比序採計成績對照表：<span lang='EN-US'><a style='color: blue; text-decoration: underline; text-underline: single' target='_BLANK' href='https://drive.google.com/drive/folders/17PY35CHgXVuZlut1FFtJRIpsmB5qYXi6?usp=sharing'><span style='color: #0000CC; text-decoration: none'>https://drive.google.com/drive/folders/17PY35CHgXVuZlut1FFtJRIpsmB5qYXi6?usp=sharing</span></a></span></span><span lang='EN-US' style='font-size: 14.0pt; font-family: 新細明體,serif'>
+</span></p>
+<p class='MsoNormal' style='text-indent: -17.85pt; line-height: 20.0pt; margin-left: 35.7pt'>
+<span lang='EN-US' style='font-size: 10.0pt; font-family: Symbol'>·<span style='font:7.0pt &quot;Times New Roman&quot;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size: 14.0pt; font-family: 標楷體'>106學年度雲林區高級中等學校免試入學委員會考試分發入學系統平臺：<span lang='EN-US'><a style='color: blue; text-decoration: underline; text-underline: single' target='_BLANK' href='https://ylc.entry.edu.tw/NoExamImitate_YL/NoExamImitateHome/Apps/Page/Public/09/ChooseSys.aspx'><span style='color: #0000CC; text-decoration: none'>https://ylc.entry.edu.tw/NoExamImitate_YL/NoExamImitateHome/Apps/Page/Public/09/ChooseSys.aspx</span></a></span></span><span lang='EN-US' style='font-size: 14.0pt; font-family: 新細明體,serif'>
 </span></p>";
 $help_doc .= "<div>
 				說明：<br>
@@ -41,3 +45,4 @@ $help_doc .= "<div>
 echo $help_doc;
 foot();
 ?>
+

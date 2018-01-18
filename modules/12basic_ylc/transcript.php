@@ -31,12 +31,13 @@ if($selected_stud && $_POST['act']=='輸出成績證明單') {
 		//表頭
 		if(next($selected_stud)==true) $p_break="page-break-after:always;"; else $p_break="";
 		$data.="<div align='center' style='page-break-after:always;'><div align='left' style='width:1000px;line-height:30px;'>";
-		$data.="<div align='center' style='padding:20px 0 0px 0; font-size:20pt;'>雲林縣「十二年國民基本教育免試入學超額比序項目」成績證明單</div>";
+		$data.="<div align='center' style='padding:20px 0 0px 0; font-size:20pt;'>".(date('Y')-1911)."年雲林縣「十二年國民基本教育免試入學超額比序項目」成績證明單</div>";
 		//表一：學生基本資料
 		$stud_name=str_replace(' ','',$student_data[$student_sn]['stud_name']);		//姓名
 		$stud_school_name=$SCHOOL_BASE['sch_cname_s'];		//畢業學校
 		$stud_school_remote=$final_data[$student_sn]['score_remote'];		//偏遠小校
 		$stud_person_id=$student_data[$student_sn]['stud_person_id'];		//身分證號
+		$stud_seme_num=student_sn_to_site_num($student_sn);             //座號		
 		$stud_seme_class="三年".class_id_to_c_name(student_sn_to_class_id($student_sn,$work_year))."班";		//就讀班級
 		$stud_school_nature=$final_data[$student_sn]['score_nearby'];		//就近入學
 		$stud_birth=sprintf('%02d',$student_data[$student_sn]['birth_year'])."年".sprintf('%02d',$student_data[$student_sn]['birth_month'])."月".sprintf('%02d',$student_data[$student_sn]['birth_day'])."日";		//出生年月日
@@ -57,8 +58,8 @@ if($selected_stud && $_POST['act']=='輸出成績證明單') {
 		$data.="<div style='margin:18px 0;'>";
 		$data.="<span style='font-size:16pt;'>一、學生基本資料：</span>";
 		$data.="<table border='2' cellpadding='3' cellspacing='0' style='width:100%; font-size:15pt; border-collapse:collapse;' bordercolor='#111111'>";
-		$data.="<tr align='center'><th>學校</th><th>班級</th><th>姓名</th><th>出生年月曰</th><th>性別</th><th>身分證號</th><th>監護人</th><th>聯絡電話</th>";
-		$data.="<tr align='center'><td>{$stud_school_name}</td><td>{$stud_seme_class}</td><td>{$stud_name}</td><td>{$stud_birth}</td><td>{$stud_sex}</td><td>{$stud_person_id}</td><td>{$guardian_name}</td><td>{$stud_telphone}</td></tr>";
+		$data.="<tr align='center'><th>學校</th><th>班級</th><th>座號</th><th>姓名</th><th>出生年月曰</th><th>性別</th><th>身分證號</th><th>監護人</th><th>聯絡電話</th>";
+		$data.="<tr align='center'><td>{$stud_school_name}</td><td>{$stud_seme_class}</td><td>{$stud_seme_num}</td><td>{$stud_name}</td><td>{$stud_birth}</td><td>{$stud_sex}</td><td>{$stud_person_id}</td><td>{$guardian_name}</td><td>{$stud_telphone}</td></tr>";
 		$data.="</table></div>";
 
 		//表二超額比序項目積分
@@ -111,12 +112,12 @@ if($selected_stud && $_POST['act']=='輸出成績證明單') {
 		$data.="<tr align='center'><th colspan='2'>得分</th><td>{$final_data[$student_sn]['score_balance_art']}</td><td>{$final_data[$student_sn]['score_balance_health']}</td><td>{$final_data[$student_sn]['score_balance_complex']}</td><td bgcolor='#D6D3D6'></td><td bgcolor='#D6D3D6'></td><td bgcolor='#D6D3D6'></td><td bgcolor='#D6D3D6'></td><td>{$final_data[$student_sn]['score_fitness']}</td></tr>";
 		$data.="</table><br>";
 		$data.="<table border='2' cellpadding='3' cellspacing='0' style='width:100%; font-size:12pt; border-collapse:collapse;' bordercolor='#111111'>";
-		$data.="<tr align='center'><th>NO</th><th>範圍</th><th>性質</th><th>競賽名稱</th><th>證書日期</th><th>主辦單位</th><th>證書字號</th><th>名次</th><th>得分</th><th>採記</th></tr>";
+		$data.="<tr align='center'><th>NO</th><th>範圍</th><th>性質</th><th>學年度</th><th>競賽名稱</th><th>證書日期</th><th>主辦單位</th><th>證書字號</th><th>名次</th><th>得分</th><th>採計</th></tr>";
 		for($i=1; $i<=count($competetion); $i++) {
 			if($competetion[$i]['squad']==2 && $competetion[$i]['mark']=='V') $team="(".$squad_team[$competetion[$i]['weight']].")"; else $team="";
-			$data.="<tr align='center'><td>{$i}</td><td>{$level_array[$competetion[$i]['level']]}</td><td>{$squad_array[$competetion[$i]['squad']]}{$team}</td><td>{$competetion[$i]['name']}</td><td>{$competetion[$i]['certificate_date']}</td><td>{$competetion[$i]['sponsor']}</td><td>{$competetion[$i]['word']}</td><td>{$competetion[$i]['rank']}</td><td>{$competetion[$i]['score']}</td><td>{$competetion[$i]['mark']}</td></tr>";
+			$data.="<tr align='center'><td>{$i}</td><td>{$level_array[$competetion[$i]['level']]}</td><td>{$squad_array[$competetion[$i]['squad']]}{$team}</td><td>{$competetion[$i]['year']}</td><td>{$competetion[$i]['name']}</td><td>{$competetion[$i]['certificate_date']}</td><td>{$competetion[$i]['sponsor']}</td><td>{$competetion[$i]['word']}</td><td>{$competetion[$i]['rank']}</td><td>{$competetion[$i]['score']}</td><td>{$competetion[$i]['mark']}</td></tr>";
 		}
-		$data.="<tr align='center'><th colspan='8'>合計</th><td>{$final_data[$student_sn]['score_competetion']}</td><td bgcolor='#D6D3D6'></td></tr>";
+		$data.="<tr align='center'><th colspan='9'>合計</th><td>{$final_data[$student_sn]['score_competetion']}</td><td bgcolor='#D6D3D6'></td></tr>";
 		$data.="</table>";
 		$data.="</div>";
 		//五：簽名、核章
@@ -126,7 +127,7 @@ if($selected_stud && $_POST['act']=='輸出成績證明單') {
 		$data.="<div align='center' style='{$p_break}'><div style='text-align:left;width:1000px;line-height:30px;'>";
 		$data.="<span style='font-size:16pt;'>附件、獎懲明細：</span>";
 		$data.="<table border='2' cellpadding='3' cellspacing='0' style='width:100%; font-size:12pt; border-collapse:collapse;' bordercolor='#111111'>";
-		$data.="<tr align='center'><th>NO</th><th>年級</th><th>學期別</th><th>獎懲日期</th><th>獎懲類別</th><th>獎懲事由</th><th>獎懲依據</th><th>銷過日期</th><th>採記</th></tr>";
+		$data.="<tr align='center'><th>NO</th><th>年級</th><th>學期別</th><th>獎懲日期</th><th>獎懲類別</th><th>獎懲事由</th><th>獎懲依據</th><th>銷過日期</th><th>採計</th></tr>";
 		$n=1;
 		for($i=1; $i<=count($reward_list); $i++) {
 			if(($reward_list[$i]['reward_kind']<=-1)&&($reward_list[$i]['reward_year_seme']<$fault_start_semester)) continue;

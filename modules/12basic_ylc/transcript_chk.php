@@ -32,17 +32,17 @@ if($selected_stud && $_POST['act']=='輸出積分審查表') {
 		//表頭
 		if(next($selected_stud)==true) $p_break="page-break-after:always;"; else $p_break="";
 		$data.="<div align='center' style='{$p_break}'><div align='left' style='width:1000px;line-height:30px;letter-spacing:1px;'>";
-		$data.="<div align='right' style='font-size:16pt;'>編號：<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u></div>";
-		$data.="<div align='center' style='padding:30px 0 40px 0; font-size:23pt;'>".(date('Y')-1911)."學年度雲林區高級中等學校免試入學超額比序積分審查表</div>";
+		$data.="<div align='right' style='font-size:14pt;'>編號：<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u></div>";
+		$data.="<div align='center' style='padding:30px 0 40px 0; font-size:20pt;'>".(date('Y')-1911)."年雲林區高級中等學校免試入學超額比序積分審查表</div>";
 		//學生基本資料
 		$stud_school_name=$SCHOOL_BASE['sch_cname_s'];		//校名
 		$stud_seme_class="三年<u>&nbsp;&nbsp;&nbsp;".class_id_to_c_name(student_sn_to_class_id($student_sn,$work_year))."&nbsp;&nbsp;&nbsp;</u>班";		//班級
 		$stud_seme_num=student_sn_to_site_num($student_sn);		//座號
 		$stud_name=str_replace(' ','',$student_data[$student_sn]['stud_name']);		//姓名
-		$data.="<div align='center' style='font-size:18pt;'>校名：<u>&nbsp;&nbsp;&nbsp;".$stud_school_name."&nbsp;&nbsp;&nbsp;</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".$stud_seme_class."<u>&nbsp;&nbsp;&nbsp;".$stud_seme_num."&nbsp;&nbsp;&nbsp;</u>號&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;學生姓名：<u>&nbsp;&nbsp;&nbsp;".$stud_name."&nbsp;&nbsp;&nbsp;</u></div>";
+		$data.="<div align='center' style='font-size:14pt;'>校名：<u>&nbsp;&nbsp;&nbsp;".$stud_school_name."&nbsp;&nbsp;&nbsp;</u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".$stud_seme_class."<u>&nbsp;&nbsp;&nbsp;".$stud_seme_num."&nbsp;&nbsp;&nbsp;</u>號&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;學生姓名：<u>&nbsp;&nbsp;&nbsp;".$stud_name."&nbsp;&nbsp;&nbsp;</u></div>";
 		//審查項目(表格標題)
-		$data.="<table border='2' cellpadding='3' cellspacing='0' style='width:100%; font-size:16pt; line-height:30px; letter-spacing:1px; border-collapse:collapse;' bordercolor='#111111'>";
-		$data.="<tr align='center' style='font-size:18pt;'><th width='8%' style='padding:30px 10px;'>審查項目</th><th width='46%' style='padding:20px 10px;'>學校初審</th><th width='46%' style='padding:20px 10px;' colspan='2'>委員會複審意見</th></tr>";
+		$data.="<table border='2' cellpadding='3' cellspacing='0' style='width:100%; font-size:14pt; line-height:30px; letter-spacing:1px; border-collapse:collapse;' bordercolor='#111111'>";
+		$data.="<tr align='center' style='font-size:14pt;'><th width='8%' style='padding:5px 5px;'>審查項目</th><th width='46%' style='padding:5px 5px;'>學校初審</th><th width='46%' style='padding:5px 5px;' colspan='2'>委員會複審意見</th></tr>";
 		//偏遠小校
 		$stud_school_remote=$final_data[$student_sn]['score_remote'];		//偏遠小校積分
 		$stud_move_date_y='';
@@ -58,7 +58,7 @@ if($selected_stud && $_POST['act']=='輸出積分審查表') {
 				$stud_move_date_d=$move_date[2];
 			}
 		}
-		$data.="<th width='8%' align='center' style='padding:30px 10px;'>偏遠<br>小校</th>";
+		$data.="<th width='8%' align='center' style='padding:20px 10px;'>偏遠<br>小校</th>";
 		$data.="<td width='46%' style='padding:20px 10px;'>
 					<p>".(($school_remote>0)?'■':'□')."符合偏遠小校資格：<u>&nbsp;&nbsp;&nbsp;".(($school_remote>0)?$stud_school_remote:'')."&nbsp;&nbsp;&nbsp;</u>分<br>&nbsp;&nbsp;".(($school_remote==2)?'■':'□')."7班以下<br>&nbsp;&nbsp;".(($school_remote==1)?'■':'□')."8-12班<br>&nbsp;&nbsp;".((($school_remote>0)&&($res_move->recordcount()>0))?'■':'□')."轉學生：<u>&nbsp;&nbsp;".$stud_move_date_y."&nbsp;&nbsp;</u>年<u>&nbsp;&nbsp;".$stud_move_date_m."&nbsp;&nbsp;</u>月<u>&nbsp;&nbsp;".$stud_move_date_d."&nbsp;&nbsp;</u>日轉入<br>&nbsp;&nbsp;".((($school_remote>0)&&($res_move->recordcount()==0))?'■':'□')."非轉學生</p>
 					<p>".(($school_remote>0)?'□':'■')."不符合偏遠小校資格</p>
@@ -68,13 +68,30 @@ if($selected_stud && $_POST['act']=='輸出積分審查表') {
 					<p>□不符合：<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>分</p>
 				</td>";
 		$data.="</tr>";
+		
+		//獎勵紀錄
+                  $f = explode(",",$reward_semester);
+                  $grade71=substr($f[0],1,-1);
+                  $grade72=substr($f[1],1,-1);
+                  $grade81=substr($f[2],1,-1);
+                  $grade82=substr($f[3],1,-1);
+                  $grade91=substr($f[4],1,-1);
+                  if($absence_data[$grade71]=='') $absence_data[$grade71]=0;
+                  if($absence_data[$grade72]=='') $absence_data[$grade72]=0;
+                  if($absence_data[$grade81]=='') $absence_data[$grade81]=0;
+                  if($absence_data[$grade82]=='') $absence_data[$grade82]=0;
+                  if($absence_data[$grade91]=='') $absence_data[$grade91]=0;
+
+		$data.="<tr align='left' ;><th width='8%' align='center' style='padding:20px 10px;'>獎勵<br>紀錄</th>";
+	$data.="<th width='46%' >大功<u>&nbsp;&nbsp;&nbsp;&nbsp;".($reward_data[$grade71][9]+$reward_data[$grade72][9]+$reward_data[$grade81][9]+$reward_data[$grade82][9]+$reward_data[$grade91][9])."&nbsp;&nbsp;&nbsp;&nbsp;</u>支、小功<u>&nbsp;&nbsp;&nbsp;&nbsp;".($reward_data[$grade71][3]+$reward_data[$grade72][3]+$reward_data[$grade81][3]+$reward_data[$grade82][3]+$reward_data[$grade91][3])."&nbsp;&nbsp;&nbsp;&nbsp;</u>支、嘉獎<u>&nbsp;&nbsp;&nbsp;&nbsp;".($reward_data[$grade71][1]+$reward_data[$grade72][1]+$reward_data[$grade81][1]+$reward_data[$grade82][1]+$reward_data[$grade91][1])."&nbsp;&nbsp;&nbsp;&nbsp;</u>支<p>得分<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".$final_data[$student_sn]['score_reward']."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>分</th><th width='46%' colspan='2'>大功<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>支、小功<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>支、嘉獎<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>支<p>得分<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>分</th></tr>";
+
 		//競賽成績
 		$data.="<tr align='left'>";
-		$data.="<th rowspan='4' width='8%' align='center' style='padding:30px 10px;'>競賽<br>成績</th>";
-		$data.="<td width='46%' style='padding:20px 10px;'>
+		$data.="<th rowspan='4' width='8%' align='center' style='padding:5px 5px;'>競賽<br>成績</th>";
+		$data.="<td width='46%'>
 					<p>國際賽<br>&nbsp;&nbsp;□已納入獎勵紀錄<br>&nbsp;&nbsp;□未納入獎勵紀錄<br>&nbsp;&nbsp;□符合採計項目：<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>項<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>分</p>
 				</td>";
-		$data.="<td width='46%' style='padding:20px 10px;' colspan='2'>
+		$data.="<td width='46%' colspan='2'>
 					<p>國際賽<br>&nbsp;&nbsp;□重複採計<br>&nbsp;&nbsp;□未重複採計<br>&nbsp;&nbsp;□符合採計項目：<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>項<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>分</p>
 				</td>";
 		$data.="</tr>";
@@ -104,10 +121,14 @@ if($selected_stud && $_POST['act']=='輸出積分審查表') {
 		$data.="</tr>";
 		//積分
 		$reward_competetion_fitness_score=$final_data[$student_sn]['score_reward']+$final_data[$student_sn]['score_competetion']+$final_data[$student_sn]['score_fitness'];		//獎勵+競賽+體適能分數
-		if ($reward_competetion_fitness_score < $reward_competetion_fitness_score_max) $reward_competetion_fitness_score=$reward_competetion_fitness_score; else $reward_competetion_fitness_score=$reward_competetion_fitness_score_max;		//判斷獎勵+競賽+體適能分數是否超過25分
+		if ($reward_competetion_fitness_score < $reward_competetion_fitness_score_max)
+		$reward_competetion_fitness_score=$reward_competetion_fitness_score; 
+		else 
+		$reward_competetion_fitness_score=$reward_competetion_fitness_score_max;
+				//判斷獎勵+競賽+體適能分數是否超過25分
 		
-		$stud_score=$final_data[$student_sn]['score_disadvantage']+$final_data[$student_sn]['score_remote']+$final_data[$student_sn]['score_nearby']+$final_data[$student_sn]['score_absence']+$final_data[$student_sn]['score_fault']+$final_data[$student_sn]['score_balance_health']+$final_data[$student_sn]['score_balance_art']+$final_data[$student_sn]['score_balance_complex']+$reward_competetion_fitness_score;
-		//$stud_score=$final_data[$student_sn]['score_disadvantage']+$final_data[$student_sn]['score_remote']+$final_data[$student_sn]['score_nearby']+$final_data[$student_sn]['score_reward']+$final_data[$student_sn]['score_absence']+$final_data[$student_sn]['score_fault']+$final_data[$student_sn]['score_balance_health']+$final_data[$student_sn]['score_balance_art']+$final_data[$student_sn]['score_balance_complex']+$final_data[$student_sn]['score_competetion']+$final_data[$student_sn]['score_fitness'];		//積分
+		$stud_score=$final_data[$student_sn]['score_disadvantage']+$final_data[$student_sn]['score_remote']+$final_data[$student_sn]['score_nearby']+$final_data[$student_sn]['score_absence']+$final_data[$student_sn]['score_fault']+$final_data[$student_sn]['score_balance_health']+$final_data[$student_sn]['score_balance_art']+$final_data[$student_sn]['score_balance_complex']+$reward_competetion_fitness_score;    		//105年積分算法
+		//$stud_score=$final_data[$student_sn]['score_disadvantage']+$final_data[$student_sn]['score_remote']+$final_data[$student_sn]['score_nearby']+$final_data[$student_sn]['score_reward']+$final_data[$student_sn]['score_absence']+$final_data[$student_sn]['score_fault']+$final_data[$student_sn]['score_balance_health']+$final_data[$student_sn]['score_balance_art']+$final_data[$student_sn]['score_balance_complex']+$final_data[$student_sn]['score_competetion']+$final_data[$student_sn]['score_fitness'];		//104年前積分算法
 		$data.="<tr align='left'><th width='8%' align='center' style='padding:30px 10px;'>積分</th><td width='46%' style='padding:20px 10px;'>未含會考及志願序積分：<u>&nbsp;&nbsp;&nbsp;".$stud_score."&nbsp;&nbsp;&nbsp;</u>分</td><td width='46%' style='padding:20px 10px;' colspan='2'>未含會考及志願序積分：<u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>分</td></tr>";
 		//審查人員核章
 		$data.="<tr align='left'>";

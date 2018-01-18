@@ -42,7 +42,7 @@ echo '</pre>';
 		
 		$sql="UPDATE 12basic_ylc set score_balance_health='{$score_balance[$student_sn]['health']}',score_balance_art='{$score_balance[$student_sn]['art']}',score_balance_complex='{$score_balance[$student_sn]['complex']}'
 				,score_competetion='{$score_competetion[$student_sn]}',score_fitness='{$score_fitness[$student_sn]}'
-			WHERE academic_year=$work_year AND student_sn=$student_sn";
+			WHERE academic_year=$work_year AND student_sn=$student_sn AND editable='1'";
 		$res=$CONN->Execute($sql) or user_error("Åª¨ú¥¢±Ñ¡I<br>$sql",256);
 	}
 };

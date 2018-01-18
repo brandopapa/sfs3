@@ -39,7 +39,7 @@ if($_POST['act']=='儲存並重新設定報名身分'){
 		$res=$CONN->Execute($sql) or user_error("讀取失敗！<br>$sql",256);	
 	
 		//清除既有設定
-		$sql="UPDATE 12basic_ylc SET kind_id=NULL,free_id=NULL,score_disadvantage=NULL WHERE academic_year='$work_year'";
+		$sql="UPDATE 12basic_ylc SET kind_id=NULL,free_id=NULL,score_disadvantage=NULL WHERE academic_year='$work_year' AND editable='1'";
 		$res=$CONN->Execute($sql) or user_error("讀取失敗！<br>$sql",256);
 		
 		//抓取學生身分類別資料並決定其身分
@@ -91,7 +91,7 @@ if($_POST['act']=='儲存並重新設定報名身分'){
 // 			}
 
 			//寫入資料表
-			$sql="UPDATE 12basic_ylc SET kind_id='$kind_id',disability_id='$disability_id',free_id='$free_id',score_disadvantage='$score_disadvantage',update_sn='$session_tea_sn' WHERE student_sn=$student_sn AND academic_year='$work_year'";
+			$sql="UPDATE 12basic_ylc SET kind_id='$kind_id',disability_id='$disability_id',free_id='$free_id',score_disadvantage='$score_disadvantage',update_sn='$session_tea_sn' WHERE student_sn=$student_sn AND academic_year='$work_year' AND editable='1'";
 			$rs=$CONN->Execute($sql) or user_error("讀取失敗！<br>$sql",256);			
 			$res->MoveNext();
 		}

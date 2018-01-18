@@ -44,7 +44,7 @@ if($_POST['act']=='統計本年度所有開列學生品德服務的級分'){
 		}
 
 		$sql="UPDATE 12basic_ylc SET score_reward='{$reward_array[$student_sn]['bonus'][2]}',score_fault='{$reward_array[$student_sn]['bonus'][1]}',score_absence='$my_abs_score'
-				WHERE academic_year=$work_year AND student_sn=$student_sn";
+				WHERE academic_year=$work_year AND student_sn=$student_sn AND editable='1'";
 		$res=$CONN->Execute($sql) or user_error("讀取失敗！<br>$sql",256);
 	}
 };

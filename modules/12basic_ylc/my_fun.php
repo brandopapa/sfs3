@@ -318,6 +318,74 @@ function count_student_reward($student_sn)
 	return $reward;
 }
 
+
+//學生獎懲次數(跨學期統計)
+function count_student_allReward($student_sn)
+{
+	global $CONN,$reward_semester,$fault_start_semester;
+	$reward=array();
+	$sql="SELECT reward_year_seme,reward_kind,reward_cancel_date FROM reward WHERE student_sn='$student_sn' AND reward_bonus=1 AND reward_year_seme IN ($reward_semester) ORDER BY reward_year_seme";
+	$res=$CONN->Execute($sql) or user_error("讀取失敗！<br>$sql",256);
+	while(!$res->EOF) {
+		$reward_year_seme=$res->fields['reward_year_seme'];
+		$reward_kind=$res->fields['reward_kind'];
+		switch ($reward_kind) {
+			case 1:
+				$reward[1]++;
+				break;
+			case 2:
+				$reward[1]+=2;
+				break;
+			case 3:
+				$reward[3]++;
+				break;
+			case 4:
+				$reward[3]+=2;
+				break;
+			case 5:
+				$reward[9]++;
+				break;
+			case 6:
+				$reward[9]+=2;
+				break;
+			case 7:
+				$reward[9]+=3;
+				break;
+			case -1:
+				$reward[-1]++;
+				if($res->fields['reward_cancel_date']!='0000-00-00' && $res->fields['reward_year_seme']>=$fault_start_semester) {$reward['fault_cancel'][-1]++;}
+				break;
+			case -2:
+				$reward[-1]+=2;
+				if($res->fields['reward_cancel_date']!='0000-00-00' && $res->fields['reward_year_seme']>=$fault_start_semester) $reward['fault_cancel'][-1]+=2;
+				break;
+			case -3:
+				$reward[-3]++;
+				if($res->fields['reward_cancel_date']!='0000-00-00' && $res->fields['reward_year_seme']>=$fault_start_semester) $reward['fault_cancel'][-3]++;
+				break;
+			case -4:
+				$reward[-3]+=2;
+				if($res->fields['reward_cancel_date']!='0000-00-00' && $res->fields['reward_year_seme']>=$fault_start_semester) $reward['fault_cancel'][-3]+=2;
+				break;
+			case -5:
+				$reward[-9]++;
+				if($res->fields['reward_cancel_date']!='0000-00-00' && $res->fields['reward_year_seme']>=$fault_start_semester) $reward['fault_cancel'][-9]++;
+				break;
+			case -6:
+				$reward[-9]+=2;
+				if($res->fields['reward_cancel_date']!='0000-00-00' && $res->fields['reward_year_seme']>=$fault_start_semester) $reward['fault_cancel'][-9]+=2;
+				break;
+			case -7:
+				$reward[-9]+=3;
+				if($res->fields['reward_cancel_date']!='0000-00-00' && $res->fields['reward_year_seme']>=$fault_start_semester) $reward['fault_cancel'][-9]+=3;
+				break;
+		}
+		$res->MoveNext();
+	}
+	return $reward;
+}
+
+
 //學生獎懲明細
 function get_student_reward_list($student_sn)
 {
@@ -341,6 +409,7 @@ function get_student_reward_list($student_sn)
 	}
 	return $reward;
 }
+
 
 //學生獎懲紀錄
 function get_student_reward($sn_array)
@@ -428,6 +497,7 @@ function get_student_reward($sn_array)
 	return $reward;
 }
 
+
 //學生歷年學期出缺席次數
 function count_student_seme_abs($stud_id)
 {
@@ -503,12 +573,13 @@ function get_student_score_competetion($student_sn)
 {
 	global $CONN,$work_year_seme,$race_score;
 	$competetion=array();
-	$sql="SELECT level,squad,name,rank,certificate_date,sponsor,word,weight FROM career_race WHERE student_sn='{$student_sn}' AND level<=4";
+	$sql="SELECT level,squad,name,rank,certificate_date,sponsor,word,weight,year FROM career_race WHERE student_sn='{$student_sn}' AND level<=4 ORDER BY certificate_date";
 	$res=$CONN->Execute($sql) or user_error("讀取失敗！<br>$sql",256);
 	$i=1;
 	while(!$res->EOF) {
 		$competetion[$i]['level']=$res->fields['level'];		//範圍
 		$competetion[$i]['squad']=$res->fields['squad'];		//性質
+		$competetion[$i]['year']=$res->fields['year'];                //學年度
 		$competetion[$i]['name']=$res->fields['name'];		//競賽名稱
 		$competetion[$i]['rank']=$res->fields['rank'];		//名次
 		$competetion[$i]['certificate_date']=$res->fields['certificate_date'];		//證書日期
@@ -830,6 +901,27 @@ function get_pic($stud_study_year,$stud_id)
 	return $img_link;
 }
 
+function get_student_id($academic_year)
+{
+	global $CONN;
+	//取得前已開列學生資料
+	$sql_select="select student_sn,kind_id,disability_id,free_id,id_memo,language_certified from 12basic_ylc where academic_year=$academic_year";
+	$recordSet=$CONN->Execute($sql_select) or user_error("讀取失敗！<br>$sql_select",256);
+	$kind_free=array();
+	while(!$recordSet->EOF)
+	{
+		$student_sn=$recordSet->fields['student_sn'];
+		$kind_free[$student_sn]['kind_id']=$recordSet->fields['kind_id'];
+		$kind_free[$student_sn]['disability_id']=$recordSet->fields['disability_id'];		
+		$kind_free[$student_sn]['free_id']=$recordSet->fields['free_id'];
+		$kind_free[$student_sn]['id_memo']=$recordSet->fields['id_memo'];
+		$kind_free[$student_sn]['language_certified']=$recordSet->fields['language_certified'];
+		
+		$recordSet->MoveNext();
+	}
+	return $kind_free;	
+}
+
 //取得畢業年度
 function get_student_graduationYear($student_sn)
 {
@@ -839,6 +931,39 @@ function get_student_graduationYear($student_sn)
 	$graduation_year = substr($rs->fields['seme_year_seme'],0,-1);
 	
 	return $graduation_year;
+}
+
+function get_editable_sn($work_year)
+{
+	global $CONN;
+	$editable_sn=array();
+	$sql="SELECT student_sn FROM 12basic_ylc WHERE academic_year='$work_year' and editable='1'";
+	$rs=$CONN->Execute($sql) or user_error("讀取失敗！<br>$sql",256);
+	while(!$rs->EOF)
+	{
+		$student_sn=$rs->fields['student_sn'];
+		$editable_sn[$student_sn]=$student_sn;
+		$rs->MoveNext();
+	}
+	return $editable_sn;
+}
+
+function get_sealed_status($work_year)
+{
+	global $CONN;
+	$editable_status=array(0=>0,1=>0);
+	$sql="SELECT editable,count(*) as counter FROM 12basic_ylc WHERE academic_year='$work_year' GROUP BY editable";
+	$rs=$CONN->Execute($sql) or user_error("讀取失敗！<br>$sql",256);
+	while(!$rs->EOF)
+	{
+		$editable=$rs->fields['editable']?$rs->fields['editable']:0;
+		$editable_status[$editable]=$rs->fields['counter'];
+		$rs->MoveNext();
+	}
+
+	$status="<font size=2 color='brown'><img src='./images/sealed.png' height=12>已封存人數：".$editable_status[0]." 　<img src='./images/off.png' height=12>未封存人數：".$editable_status[1].'</font>';
+
+	return $status;
 }
 
 //修正JavaScript特殊字

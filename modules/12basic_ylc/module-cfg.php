@@ -43,10 +43,10 @@ $MODULE_PRO_KIND_NAME = "12年國教雲林區免試入學";
 //---------------------------------------------------
 
 // 模組最後更新版本
-$MODULE_UPDATE_VER="1.2.0";
+$MODULE_UPDATE_VER="1.2.1";
 
 // 模組最後更新日期
-$MODULE_UPDATE="2014-11-07";
+$MODULE_UPDATE="2017-11-20";
 
 
 //---------------------------------------------------
@@ -64,7 +64,10 @@ $MODULE_UPDATE="2014-11-07";
 
 //目錄內程式
 //$MENU_P = array("readme.php"=>"使用說明","student_list.php"=>"參與免試學生","kind_mirror.php"=>"身分對應設定","student_kind.php"=>"報名資料","aspiration.php"=>"志願序","disadvantage.php"=>"扶助弱勢","nearby.php"=>"就近入學","morality.php"=>"品德服務","diversification.php"=>"多元學習","exam.php"=>"教育會考",'transcript.php'=>'成績證明單',"output.php"=>"招生報名電子檔輸出");
-$MENU_P = array("readme.php"=>"使用說明","student_list.php"=>"參與免試學生","kind_mirror.php"=>"身分對應設定","student_kind.php"=>"報名資料","disadvantage.php"=>"扶助弱勢","nearby.php"=>"就近入學","morality.php"=>"品德服務","diversification.php"=>"多元學習",'transcript.php'=>'成績證明單','transcript_chk.php'=>'積分審查表',"output.php"=>"招生報名電子檔輸出","output_tmd.php"=>"試探系統電子檔輸出");
+//$MENU_P = array("readme.php"=>"使用說明","student_list.php"=>"參與免試學生","kind_mirror.php"=>"身分對應設定","student_kind.php"=>"報名資料","disadvantage.php"=>"扶助弱勢","nearby.php"=>"就近入學","morality.php"=>"品德服務","diversification.php"=>"多元學習",'sealed.php'=>"資料封存",'transcript.php'=>'成績證明單','transcript_chk.php'=>'積分審查表',"output.php"=>"招生報名電子檔輸出","output_tmd.php"=>"試探系統電子檔輸出");
+
+$MENU_P = array("readme.php"=>"使用說明","student_list.php"=>"參與免試學生","kind_mirror.php"=>"身分對應設定","student_kind.php"=>"報名資料","disadvantage.php"=>"扶助弱勢","nearby.php"=>"就近入學","morality.php"=>"品德服務","diversification.php"=>"多元學習",'sealed.php'=>"資料封存",'transcript.php'=>'成績證明單',"output.php"=>"招生報名電子檔輸出","output_tmd.php"=>"試探系統電子檔輸出");
+
 
 //---------------------------------------------------
 //
@@ -116,6 +119,7 @@ $SFS_MODULE_SETUP[]=array('var'=>"native_id", 'msg'=>"原住民代號", 'value'=>9);
 $SFS_MODULE_SETUP[]=array('var'=>"native_language_sort", 'msg'=>"族語認證屬性記載順位", 'value'=>3);
 $SFS_MODULE_SETUP[]=array('var'=>"native_language_text", 'msg'=>"通過族語認證標記文字", 'value'=>'是');
 $SFS_MODULE_SETUP[]=array('var'=>"full_personal_profile", 'msg'=>"報名檔輸出完整個資", 'value'=>array(1=>"是",0=>"否"));
-
+$SFS_MODULE_SETUP[]=array('var'=>"uneditable_bgcolor", 'msg'=>"已封存記錄列顏色", 'value'=>'#ffffcc');
+$SFS_MODULE_SETUP[]=array('var'=>"full_sealed_check", 'msg'=>"全數封存才允許輸出", 'value'=>array(0=>"否",1=>"是"));
 
 ?>
