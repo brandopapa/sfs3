@@ -1506,7 +1506,7 @@
 			</table:table-row>
 		</table:table>
 		<text:p text:style-name="P23" />
-		<text:p text:style-name="P1" />
+		<!-- <text:p text:style-name="P1" /> -->
 		<text:p text:style-name="P1">{學校全銜}{學年}學年度{學期}學期成績單</text:p>
 		<text:p text:style-name="P2" />
 		<text:p text:style-name="P24">

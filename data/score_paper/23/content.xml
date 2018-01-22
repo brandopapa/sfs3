@@ -316,6 +316,13 @@
 				style:font-name-asian="標楷體" fo:text-align="end"
 				style:justify-single-word="false" />
 		</style:style>
+		<style:style style:name="P99" style:family="paragraph"
+			style:parent-style-name="Standard">
+			<style:properties style:font-name="標楷體"
+				style:font-size-asian="8pt"
+				style:font-name-asian="標楷體" fo:text-align="end"
+				style:justify-single-word="false" />
+		</style:style>
 		<style:style style:name="P3" style:family="paragraph"
 			style:parent-style-name="Standard">
 			<style:properties fo:color="#000000"
@@ -737,7 +744,7 @@
 				text:name="Drawing" />
 		</text:sequence-decls>
 		<text:p text:style-name="P1">{學校全銜}{學年}學年度{學期}學期成績單</text:p>
-		<text:p text:style-name="P2" />
+		<!-- <text:p text:style-name="P2" /> -->
 		<text:p text:style-name="P2">
 			班級：
 			<text:span text:style-name="T1">{班級}</text:span>
@@ -1537,9 +1544,9 @@
 			</table:table-row>
 		</table:table>
 		<text:p text:style-name="P23" />
-		<text:p text:style-name="P1" />
+		<!-- <text:p text:style-name="P1" /> -->
 		<text:p text:style-name="P1">{學校全銜}{學年}學年度{學期}學期成績單</text:p>
-		<text:p text:style-name="P2" />
+		<!-- <text:p text:style-name="P2" /> -->
 		<text:p text:style-name="P24">
 			班級：
 			<text:span text:style-name="T1">{班級}</text:span>
