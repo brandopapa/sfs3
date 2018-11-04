@@ -38,7 +38,7 @@ $nearby_level=array(1=>'≤≈¶X',0=>'§£≤≈¶X');
 //´~ºw™A∞»øn§¿
 //º˙¿y¨ˆø˝
 $reward_kind=array(1=>'π≈º˙§@¶∏',2=>'π≈º˙§G¶∏',3=>'§p•\\§@¶∏',4=>'§p•\\§G¶∏',5=>'§j•\\§@¶∏',6=>'§j•\\§G¶∏',7=>'§j•\\§T¶∏',-1=>'ƒµßi§@¶∏',-2=>'ƒµßi§G¶∏',-3=>'§pπL§@¶∏',-4=>'§pπL§G¶∏',-5=>'§jπL§@¶∏',-6=>'§jπL§G¶∏',-7=>'§jπL§T¶∏');		//º˙√g√˛ßO
-$reward_semester="'1041','1042','1051','1052','1061'";		//º˙√g¨ˆø˝®˙•Œæ«¥¡(®˙∞Í1~∞Í3§W)
+$reward_semester="'1051','1052','1061','1062','1071'";		//º˙√g¨ˆø˝®˙•Œæ«¥¡(®˙∞Í1~∞Í3§W)
 $reward_score[1]=0.5;
 $reward_score[3]=1.5;
 $reward_score[9]=4.5;
@@ -52,7 +52,7 @@ $fault_score_max=5;
 //•XØ Æu¨ˆø˝
 $absence_score='5,3,3,3,3,3,1,1,1,1,1';
 $absence_score_array=explode(',',$absence_score);
-$absence_semester="'1041','1042','1051','1052','1061'";		//®˙∞Í1~∞Í3§W
+$absence_semester="'1051','1052','1061','1062','1071'";		//®˙∞Í1~∞Í3§W
 //$absence_semester="'1011','1012','1021'";		//®˙∞Í2~∞Í3§W
 $absence_score_max=5;
 
@@ -60,7 +60,7 @@ $absence_score_max=5;
 //ß°ø≈æ«≤ﬂ≥Ê§@ª‚∞Ï§ŒÆÊøn§¿±o§¿
 $balance_score=3;
 $balance_score_max=9;
-$balance_semester=array('1041','1042','1051','1052','1061');     //®˙∞Í1~∞Í3§W
+$balance_semester=array('1051','1052','1061','1062','1071');
 $balance_area=array('health','art','complex');
 /*
 //™¿πŒøn§¿±o§¿(§§ßÎ)
@@ -92,7 +92,7 @@ $race_score_max=9;
 $fitness_score_one=3;
 $fitness_score_one_max=6;
 $fitness_addon=array('gold'=>0,'silver'=>0,'copper'=>0);
-$fitness_semester="'1041','1042','1051','1052','1061'";		//®˙∞Í1~∞Í3§W
+$fitness_semester="'1051','1052','1061','1062','1071'";
 $fitness_score_max=6;
 $fitness_medal=array('gold'=>'™˜','silver'=>'ª»','copper'=>'ª…','no'=>'--');
 
@@ -139,7 +139,7 @@ $stud_disability_arr_12ylc=array('0'=>'´D®≠§ﬂªŸ√™¶“•Õ','1'=>'¥ºØ‡ªŸ√™','2'=>'µ¯ƒ
 
 //®≠§¿√˛ßOßC¶¨•¢∑~πÔ∑”
 $stud_free_arr_12ylc=array('0'=>'§@ØÎ•Õ','1'=>'ßC¶¨§J§·','2'=>'§§ßC¶¨§J§·','3'=>'•¢∑~≥“§u§l§k');
-$stud_free_rate=array(0=>0,1=>2,2=>1,3=>0.5);
+$stud_free_rate=array(0=>0,1=>2,2=>1,3=>0);
 
 
 //¨Oß_≈„•‹§j¿Y∑”
