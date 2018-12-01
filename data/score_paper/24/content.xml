@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE office:document-content PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "office.dtd">
 <office:document-content xmlns:office="http://openoffice.org/2000/office"
 	xmlns:style="http://openoffice.org/2000/style" xmlns:text="http://openoffice.org/2000/text"
 	xmlns:table="http://openoffice.org/2000/table" xmlns:draw="http://openoffice.org/2000/drawing"
 	xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:xlink="http://www.w3.org/1999/xlink"
-	xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="http://openoffice.org/2000/meta"
 	xmlns:number="http://openoffice.org/2000/datastyle" xmlns:svg="http://www.w3.org/2000/svg"
 	xmlns:chart="http://openoffice.org/2000/chart" xmlns:dr3d="http://openoffice.org/2000/dr3d"
 	xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="http://openoffice.org/2000/form"
-	xmlns:script="http://openoffice.org/2000/script" xmlns:ooo="http://openoffice.org/2004/office"
-	xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc"
-	xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2"
-	xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#"
-	xmlns:tableooo="http://openoffice.org/2009/table" xmlns:textooo="http://openoffice.org/2013/office"
-	xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0"
-	office:version="1.2" office:class="text">
+	xmlns:script="http://openoffice.org/2000/script" office:class="text"
+	office:version="1.0">
 	<office:script />
 	<office:font-decls>
 		<style:font-decl style:name="Tahoma1" fo:font-family="Tahoma" />
@@ -311,307 +304,299 @@
 		</style:style>
 		<style:style style:name="P1" style:family="paragraph"
 			style:parent-style-name="Standard">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" style:font-name="標楷體"
+			<style:properties style:font-name="標楷體"
 				fo:font-size="16pt" fo:font-weight="bold" style:font-name-asian="標楷體"
 				style:font-size-asian="16pt" style:font-weight-asian="bold"
-				style:font-size-complex="16pt" style:font-weight-complex="bold" />
+				style:font-size-complex="16pt" style:font-weight-complex="bold"
+				fo:text-align="center" style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P2" style:family="paragraph"
 			style:parent-style-name="Standard">
-			<style:properties fo:text-align="end"
-				style:justify-single-word="false" style:font-name="標楷體"
-				style:font-name-asian="標楷體" />
+			<style:properties style:font-name="標楷體"
+				style:font-name-asian="標楷體" fo:text-align="end"
+				style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P3" style:family="paragraph"
 			style:parent-style-name="Standard">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" style:font-name="標楷體"
-				style:font-name-asian="標楷體" style:font-size-asian="12pt" />
+			<style:properties fo:color="#000000"
+				style:font-name="標楷體" fo:font-size="14pt" style:text-underline="none"
+				fo:font-weight="bold" style:font-name-asian="標楷體"
+				style:font-size-asian="14pt" style:font-weight-asian="bold"
+				style:font-weight-complex="bold" fo:text-align="start"
+				style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P4" style:family="paragraph"
 			style:parent-style-name="Standard">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" style:font-name="標楷體"
-				style:font-name-asian="標楷體" />
+			<style:properties style:font-name="標楷體"
+				fo:font-size="12pt" fo:font-weight="bold" style:font-name-asian="標楷體"
+				style:font-size-asian="12pt" style:font-weight-asian="bold"
+				style:font-weight-complex="bold" fo:text-align="center"
+				style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P5" style:family="paragraph"
 			style:parent-style-name="Standard">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" style:font-name="標楷體"
-				fo:font-size="12pt" fo:font-weight="bold" style:font-name-asian="標楷體"
-				style:font-size-asian="12pt" style:font-weight-asian="bold"
-				style:font-weight-complex="bold" />
+			<style:properties style:font-name="標楷體"
+				fo:font-weight="bold" style:font-name-asian="標楷體"
+				style:font-weight-asian="bold" style:font-weight-complex="bold"
+				fo:text-align="center" style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P6" style:family="paragraph"
 			style:parent-style-name="Standard">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" style:font-name="標楷體"
-				fo:font-size="12pt" fo:font-weight="bold" style:font-name-asian="標楷體"
-				style:font-size-asian="12pt" style:language-asian="zh"
-				style:country-asian="TW" style:font-weight-asian="bold"
-				style:font-weight-complex="bold" />
-		</style:style>
-		<style:style style:name="P7" style:family="paragraph"
-			style:parent-style-name="Standard">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" style:font-name="標楷體"
+			<style:properties style:font-name="標楷體"
 				fo:font-size="12pt" fo:font-weight="normal" style:font-name-asian="標楷體"
 				style:font-size-asian="12pt" style:font-weight-asian="normal"
-				style:font-size-complex="12pt" style:font-weight-complex="normal" />
+				style:font-size-complex="12pt" style:font-weight-complex="normal"
+				fo:text-align="center" style:justify-single-word="false" />
+		</style:style>
+		<style:style style:name="P7" style:family="paragraph"
+			style:parent-style-name="Table Contents">
+			<style:properties fo:font-variant="normal"
+				fo:text-transform="none" fo:color="#000000" style:font-name="標楷體"
+				fo:font-size="10pt" fo:letter-spacing="normal" fo:font-style="normal"
+				fo:font-weight="normal" style:font-name-asian="標楷體"
+				style:font-size-asian="10pt" style:font-size-complex="10pt"
+				fo:text-align="center" style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P8" style:family="paragraph"
-			style:parent-style-name="Standard">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" style:font-name="標楷體"
-				fo:font-size="12pt" fo:font-weight="normal" style:font-name-asian="標楷體"
-				style:font-size-asian="12pt" style:language-asian="zh"
-				style:country-asian="TW" style:font-weight-asian="normal"
-				style:font-size-complex="12pt" style:font-weight-complex="normal" />
+			style:parent-style-name="Table Contents">
+			<style:properties style:font-name="標楷體"
+				fo:font-size="10pt" style:font-name-asian="標楷體"
+				style:font-size-asian="10pt" style:font-size-complex="10pt"
+				fo:text-align="center" style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P9" style:family="paragraph"
 			style:parent-style-name="Standard">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" style:font-name="標楷體"
-				fo:font-weight="bold" style:font-name-asian="標楷體"
-				style:font-weight-asian="bold" style:font-weight-complex="bold" />
+			<style:properties style:font-name="標楷體"
+				fo:font-size="12pt" fo:font-weight="normal" style:font-name-asian="標楷體"
+				style:font-size-asian="12pt" style:language-asian="zh"
+				style:country-asian="TW" style:font-weight-asian="normal"
+				style:font-size-complex="12pt" style:font-weight-complex="normal"
+				fo:text-align="center" style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P10" style:family="paragraph"
 			style:parent-style-name="Standard">
-			<style:properties fo:text-align="start"
-				style:justify-single-word="false" style:font-name="標楷體"
-				fo:font-size="10pt" style:font-name-asian="標楷體"
-				style:font-size-asian="10pt" style:font-size-complex="10pt" />
+			<style:properties fo:font-variant="normal"
+				fo:text-transform="none" fo:color="#000000" style:font-name="標楷體"
+				fo:font-size="10pt" fo:letter-spacing="normal" fo:font-style="normal"
+				fo:font-weight="normal" style:font-name-asian="標楷體"
+				style:font-size-asian="10pt" style:font-size-complex="10pt"
+				fo:text-align="center" style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P11" style:family="paragraph"
-			style:parent-style-name="Standard">
-			<style:properties fo:text-align="end"
-				style:justify-single-word="false" style:font-name="標楷體"
-				fo:font-size="10pt" style:font-name-asian="標楷體"
-				style:font-size-asian="10pt" style:font-size-complex="10pt" />
+			style:parent-style-name="Table Contents">
+			<style:properties style:font-name="標楷體"
+				style:font-name-asian="標楷體" fo:text-align="center"
+				style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P12" style:family="paragraph"
 			style:parent-style-name="Standard">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" style:font-name="標楷體"
-				fo:font-size="8pt" fo:font-weight="normal" style:font-name-asian="標楷體"
-				style:font-size-asian="8pt" style:font-weight-asian="normal"
-				style:font-size-complex="8pt" style:font-weight-complex="normal" />
+			<style:properties style:font-name="標楷體"
+				fo:font-size="12pt" fo:font-weight="bold" style:font-name-asian="標楷體"
+				style:font-size-asian="12pt" style:language-asian="zh"
+				style:country-asian="TW" style:font-weight-asian="bold"
+				style:font-weight-complex="bold" fo:text-align="center"
+				style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P13" style:family="paragraph"
 			style:parent-style-name="Standard">
-			<style:properties fo:text-align="start"
-				style:justify-single-word="false" fo:color="#000000"
-				style:font-name="標楷體" fo:font-size="14pt" fo:font-weight="bold"
-				style:font-name-asian="標楷體" style:font-size-asian="14pt"
-				style:font-weight-asian="bold" style:font-weight-complex="bold"
-				style:text-underline="none" />
+			<style:properties style:font-name="標楷體"
+				style:font-name-asian="標楷體" style:font-size-asian="12pt"
+				fo:text-align="center" style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P14" style:family="paragraph"
 			style:parent-style-name="Standard">
-			<style:properties fo:text-align="start"
-				style:justify-single-word="false" fo:color="#000000"
-				style:font-name="標楷體" fo:font-size="14pt" fo:font-weight="bold"
-				style:font-name-asian="標楷體" style:font-size-asian="14pt"
-				style:font-weight-asian="bold" style:font-size-complex="10pt"
-				style:font-weight-complex="bold" style:text-underline="none" />
+			<style:properties style:font-name="標楷體"
+				style:font-name-asian="標楷體" fo:text-align="center"
+				style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P15" style:family="paragraph"
-			style:parent-style-name="Standard">
-			<style:properties fo:line-height="100%"
-				fo:text-align="center" style:justify-single-word="false" fo:color="#000000"
-				style:font-name="標楷體" fo:font-size="14pt" fo:font-weight="bold"
-				style:font-name-asian="標楷體" style:font-size-asian="14pt"
-				style:font-weight-asian="bold" style:font-size-complex="10pt"
-				style:font-weight-complex="bold" style:text-underline="none" />
+			style:parent-style-name="Table Contents">
+			<style:properties style:font-name="標楷體"
+				style:font-name-asian="標楷體" fo:text-align="start"
+				style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P16" style:family="paragraph"
-			style:parent-style-name="Standard">
-			<style:properties fo:line-height="100%"
-				fo:text-align="start" style:justify-single-word="false" fo:color="#000000"
-				style:font-name="標楷體" fo:font-size="14pt" fo:font-weight="bold"
-				style:font-name-asian="標楷體" style:font-size-asian="14pt"
-				style:font-weight-asian="bold" style:font-size-complex="10pt"
-				style:font-weight-complex="bold" style:text-underline="none" />
+			style:parent-style-name="Table Contents">
+			<style:properties style:font-name="標楷體"
+				fo:font-size="12pt" style:font-name-asian="標楷體"
+				style:font-size-asian="12pt" style:font-size-complex="12pt"
+				fo:text-align="center" style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P17" style:family="paragraph"
-			style:parent-style-name="Standard">
-			<style:properties fo:line-height="0.4cm"
-				fo:text-align="start" style:justify-single-word="false" fo:color="#000000"
-				style:font-name="標楷體" fo:font-size="14pt" fo:font-weight="bold"
-				style:font-name-asian="標楷體" style:font-size-asian="14pt"
-				style:font-weight-asian="bold" style:font-size-complex="10pt"
-				style:font-weight-complex="bold" style:text-underline="none" />
+			style:parent-style-name="Text body">
+			<style:properties fo:margin-left="0cm"
+				fo:margin-right="0cm" style:font-name="標楷體" fo:font-size="10pt"
+				fo:letter-spacing="-0.035cm" style:font-name-asian="標楷體"
+				style:font-size-asian="10pt" style:font-size-complex="10pt"
+				fo:text-align="start" style:justify-single-word="false"
+				fo:text-indent="0cm" style:auto-text-indent="false" />
 		</style:style>
 		<style:style style:name="P18" style:family="paragraph"
-			style:parent-style-name="Standard">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" fo:color="#000000"
-				style:font-name="標楷體" fo:font-size="14pt" fo:font-weight="bold"
-				style:font-name-asian="標楷體" style:font-size-asian="14pt"
-				style:language-asian="zh" style:country-asian="TW"
-				style:font-weight-asian="bold" style:font-size-complex="14pt"
-				style:font-weight-complex="bold" style:text-underline="none" />
+			style:parent-style-name="Text body" style:list-style-name="L1">
+			<style:properties fo:margin-left="0.736cm"
+				fo:margin-right="0cm" style:font-name="標楷體" fo:font-size="10pt"
+				style:font-name-asian="標楷體" style:font-size-asian="10pt"
+				style:font-size-complex="10pt" fo:line-height="100%" fo:text-align="start"
+				style:justify-single-word="false" fo:text-indent="0cm"
+				style:auto-text-indent="false" />
 		</style:style>
 		<style:style style:name="P19" style:family="paragraph"
-			style:parent-style-name="Standard">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" fo:color="#000000"
-				style:font-name="標楷體" style:font-name-asian="標楷體"
-				style:language-asian="zh" style:country-asian="TW"
-				style:text-underline="none" />
+			style:parent-style-name="Table Contents">
+			<style:properties style:font-name="標楷體"
+				fo:font-size="12pt" fo:font-weight="bold" style:font-name-asian="標楷體"
+				style:font-size-asian="12pt" style:font-weight-asian="bold"
+				style:font-size-complex="12pt" style:font-weight-complex="bold"
+				fo:text-align="center" style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P20" style:family="paragraph"
 			style:parent-style-name="Standard">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" fo:font-variant="normal"
-				fo:text-transform="none" fo:color="#000000" style:font-name="標楷體"
-				fo:font-size="10pt" fo:letter-spacing="normal" fo:font-style="normal"
-				fo:font-weight="normal" style:font-name-asian="標楷體"
-				style:font-size-asian="10pt" style:font-size-complex="10pt" />
+			<style:properties fo:color="#000000"
+				style:font-name="標楷體" style:text-underline="none"
+				style:font-name-asian="標楷體" style:language-asian="zh"
+				style:country-asian="TW" fo:text-align="center"
+				style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P21" style:family="paragraph"
-			style:parent-style-name="Table Contents">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" fo:font-variant="normal"
-				fo:text-transform="none" fo:color="#000000" style:font-name="標楷體"
-				fo:font-size="10pt" fo:letter-spacing="normal" fo:font-style="normal"
-				fo:font-weight="normal" style:font-name-asian="標楷體"
-				style:font-size-asian="10pt" style:font-size-complex="10pt" />
+			style:parent-style-name="Standard">
+			<style:properties fo:color="#000000"
+				style:font-name="標楷體" fo:font-size="14pt" style:text-underline="none"
+				fo:font-weight="bold" style:font-name-asian="標楷體"
+				style:font-size-asian="14pt" style:language-asian="zh"
+				style:country-asian="TW" style:font-weight-asian="bold"
+				style:font-size-complex="14pt" style:font-weight-complex="bold"
+				fo:text-align="center" style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P22" style:family="paragraph"
 			style:parent-style-name="Table Contents">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" style:font-name="標楷體"
-				fo:font-size="10pt" style:font-name-asian="標楷體"
-				style:font-size-asian="10pt" style:font-size-complex="10pt" />
+			<style:properties style:font-name="標楷體"
+				style:font-name-asian="標楷體" style:language-asian="zh"
+				style:country-asian="TW" fo:text-align="center"
+				style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P23" style:family="paragraph"
-			style:parent-style-name="Table Contents">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" style:font-name="標楷體"
-				style:font-name-asian="標楷體" />
+			style:parent-style-name="Standard">
+			<style:properties style:font-name="標楷體"
+				fo:font-size="10pt" style:font-name-asian="標楷體"
+				style:font-size-asian="10pt" style:font-size-complex="10pt"
+				fo:text-align="start" style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P24" style:family="paragraph"
-			style:parent-style-name="Table Contents">
-			<style:properties fo:text-align="start"
-				style:justify-single-word="false" style:font-name="標楷體"
-				style:font-name-asian="標楷體" />
+			style:parent-style-name="Standard">
+			<style:properties style:font-name="標楷體"
+				fo:font-size="10pt" style:font-name-asian="標楷體"
+				style:font-size-asian="10pt" style:font-size-complex="10pt"
+				fo:text-align="end" style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P25" style:family="paragraph"
-			style:parent-style-name="Table Contents">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" style:font-name="標楷體"
-				style:font-name-asian="標楷體" style:language-asian="zh"
-				style:country-asian="TW" />
+			style:parent-style-name="Standard">
+			<style:properties fo:color="#000000"
+				style:font-name="標楷體" fo:font-size="14pt" style:text-underline="none"
+				fo:font-weight="bold" style:font-name-asian="標楷體"
+				style:font-size-asian="14pt" style:font-weight-asian="bold"
+				style:font-size-complex="10pt" style:font-weight-complex="bold"
+				fo:text-align="start" style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P26" style:family="paragraph"
-			style:parent-style-name="Table Contents">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" style:font-name="標楷體"
-				style:font-name-asian="標楷體" style:font-size-asian="12pt" />
-		</style:style>
-		<style:style style:name="P27" style:family="paragraph"
-			style:parent-style-name="Table Contents">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" style:font-name="標楷體"
-				fo:font-size="12pt" style:font-name-asian="標楷體"
-				style:font-size-asian="12pt" style:font-size-complex="12pt" />
-		</style:style>
-		<style:style style:name="P28" style:family="paragraph"
-			style:parent-style-name="Table Contents">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" style:font-name="標楷體"
-				fo:font-size="12pt" fo:font-weight="bold" style:font-name-asian="標楷體"
-				style:font-size-asian="12pt" style:font-weight-asian="bold"
-				style:font-size-complex="12pt" style:font-weight-complex="bold" />
-		</style:style>
-		<style:style style:name="P29" style:family="paragraph"
-			style:parent-style-name="Table Contents">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" style:font-name="標楷體"
-				fo:font-size="12pt" fo:language="en" fo:country="US"
-				style:font-name-asian="標楷體" style:font-size-asian="12pt"
-				style:font-size-complex="12pt" />
-		</style:style>
-		<style:style style:name="P30" style:family="paragraph"
-			style:parent-style-name="Text body">
-			<style:properties fo:margin-left="0cm"
-				fo:margin-right="0cm" fo:text-align="start"
-				style:justify-single-word="false" fo:text-indent="0cm"
-				style:auto-text-indent="false" style:font-name="標楷體" fo:font-size="10pt"
-				fo:letter-spacing="-0.035cm" style:font-name-asian="標楷體"
-				style:font-size-asian="10pt" style:font-size-complex="10pt" />
-		</style:style>
-		<style:style style:name="P31" style:family="paragraph"
 			style:parent-style-name="Table Heading">
 			<style:properties style:font-name="標楷體"
 				fo:font-style="normal" style:font-name-asian="標楷體"
 				style:font-style-asian="normal" style:font-style-complex="normal" />
 		</style:style>
-		<style:style style:name="P32" style:family="paragraph"
+		<style:style style:name="P27" style:family="paragraph"
 			style:parent-style-name="Text body">
-			<style:properties fo:text-align="center"
-				style:justify-single-word="false" style:font-name="標楷體"
-				style:font-name-asian="標楷體" />
+			<style:properties style:font-name="標楷體"
+				style:font-name-asian="標楷體" fo:text-align="center"
+				style:justify-single-word="false" />
+		</style:style>
+		<style:style style:name="P28" style:family="paragraph"
+			style:parent-style-name="Table Contents">
+			<style:properties style:font-name="標楷體"
+				style:font-name-asian="標楷體" style:font-size-asian="12pt"
+				fo:text-align="center" style:justify-single-word="false" />
+		</style:style>
+		<style:style style:name="P29" style:family="paragraph"
+			style:parent-style-name="Table Contents">
+			<style:properties style:font-name="標楷體"
+				fo:font-size="12pt" fo:language="en" fo:country="US"
+				style:font-name-asian="標楷體" style:font-size-asian="12pt"
+				style:font-size-complex="12pt" fo:text-align="center"
+				style:justify-single-word="false" />
+		</style:style>
+		<style:style style:name="P30" style:family="paragraph"
+			style:parent-style-name="Standard">
+			<style:properties fo:color="#000000"
+				style:font-name="標楷體" fo:font-size="14pt" style:text-underline="none"
+				fo:font-weight="bold" style:font-name-asian="標楷體"
+				style:font-size-asian="14pt" style:font-weight-asian="bold"
+				style:font-size-complex="10pt" style:font-weight-complex="bold"
+				fo:line-height="100%" fo:text-align="center"
+				style:justify-single-word="false" />
+		</style:style>
+		<style:style style:name="P31" style:family="paragraph"
+			style:parent-style-name="Standard">
+			<style:properties fo:color="#000000"
+				style:font-name="標楷體" fo:font-size="14pt" style:text-underline="none"
+				fo:font-weight="bold" style:font-name-asian="標楷體"
+				style:font-size-asian="14pt" style:font-weight-asian="bold"
+				style:font-size-complex="10pt" style:font-weight-complex="bold"
+				fo:line-height="100%" fo:text-align="start"
+				style:justify-single-word="false" />
+		</style:style>
+		<style:style style:name="P32" style:family="paragraph"
+			style:parent-style-name="Standard">
+			<style:properties fo:color="#000000"
+				style:font-name="標楷體" fo:font-size="14pt" style:text-underline="none"
+				fo:font-weight="bold" style:font-name-asian="標楷體"
+				style:font-size-asian="14pt" style:font-weight-asian="bold"
+				style:font-size-complex="10pt" style:font-weight-complex="bold"
+				fo:line-height="0.4cm" fo:text-align="start"
+				style:justify-single-word="false" />
 		</style:style>
 		<style:style style:name="P33" style:family="paragraph"
 			style:parent-style-name="Text body">
 			<style:properties fo:margin-left="0.889cm"
-				fo:margin-right="0cm" fo:line-height="0.34cm" fo:text-indent="0cm"
-				style:auto-text-indent="false" style:font-name="標楷體"
-				style:font-name-asian="標楷體" />
+				fo:margin-right="0cm" style:font-name="標楷體" style:font-name-asian="標楷體"
+				fo:line-height="0.34cm" fo:text-indent="0cm" style:auto-text-indent="false" />
 		</style:style>
 		<style:style style:name="P34" style:family="paragraph"
 			style:parent-style-name="Text body">
-			<style:properties fo:margin-left="0.889cm"
-				fo:margin-right="0cm" fo:line-height="0.34cm" fo:text-indent="0cm"
-				style:auto-text-indent="false" style:font-name="標楷體" fo:font-size="12pt"
-				style:font-name-asian="標楷體" style:font-size-asian="12pt" />
+			<style:properties fo:margin-left="0.762cm"
+				fo:margin-right="0cm" style:font-name="標楷體" style:font-name-asian="標楷體"
+				fo:line-height="0.33cm" fo:text-indent="0cm" style:auto-text-indent="false" />
 		</style:style>
 		<style:style style:name="P35" style:family="paragraph"
 			style:parent-style-name="Text body">
-			<style:properties fo:margin-left="0.762cm"
-				fo:margin-right="0cm" fo:line-height="0.33cm" fo:text-indent="0cm"
-				style:auto-text-indent="false" style:font-name="標楷體"
-				style:font-name-asian="標楷體" />
+			<style:properties fo:margin-left="2.096cm"
+				fo:margin-right="0cm" style:font-name="標楷體" style:font-name-asian="標楷體"
+				fo:line-height="0.31cm" fo:text-indent="-0.321cm"
+				style:auto-text-indent="false" />
 		</style:style>
 		<style:style style:name="P36" style:family="paragraph"
 			style:parent-style-name="Text body">
-			<style:properties fo:margin-left="2.096cm"
-				fo:margin-right="0cm" fo:line-height="0.31cm" fo:text-indent="-0.321cm"
-				style:auto-text-indent="false" style:font-name="標楷體"
-				style:font-name-asian="標楷體" />
+			<style:properties fo:margin-left="0cm"
+				fo:margin-right="0cm" style:font-name="標楷體" style:font-name-asian="標楷體"
+				fo:line-height="0.31cm" fo:text-indent="1.506cm"
+				style:auto-text-indent="false" />
 		</style:style>
 		<style:style style:name="P37" style:family="paragraph"
 			style:parent-style-name="Text body">
-			<style:properties fo:margin-left="0cm"
-				fo:margin-right="0cm" fo:line-height="0.31cm" fo:text-indent="1.506cm"
-				style:auto-text-indent="false" style:font-name="標楷體"
-				style:font-name-asian="標楷體" />
+			<style:properties fo:margin-left="0.889cm"
+				fo:margin-right="0cm" style:font-name="標楷體" fo:font-size="12pt"
+				style:font-name-asian="標楷體" style:font-size-asian="12pt"
+				fo:line-height="0.34cm" fo:text-indent="0cm" style:auto-text-indent="false" />
 		</style:style>
 		<style:style style:name="P38" style:family="paragraph"
 			style:parent-style-name="Text body">
 			<style:properties fo:margin-left="2.268cm"
-				fo:margin-right="0cm" fo:line-height="0.33cm" fo:text-indent="0cm"
-				style:auto-text-indent="false" style:font-name="標楷體"
-				style:font-name-asian="標楷體" />
+				fo:margin-right="0cm" style:font-name="標楷體" style:font-name-asian="標楷體"
+				fo:line-height="0.33cm" fo:text-indent="0cm" style:auto-text-indent="false" />
 		</style:style>
 		<style:style style:name="P39" style:family="paragraph"
 			style:parent-style-name="Text body">
 			<style:properties fo:margin-left="0cm"
-				fo:margin-right="0cm" fo:line-height="0.33cm" fo:text-indent="1.482cm"
-				style:auto-text-indent="false" style:font-name="標楷體"
-				style:font-name-asian="標楷體" />
-		</style:style>
-		<style:style style:name="P40" style:family="paragraph"
-			style:parent-style-name="Text body" style:list-style-name="L1">
-			<style:properties fo:margin-left="0.736cm"
-				fo:margin-right="0cm" fo:line-height="100%" fo:text-align="start"
-				style:justify-single-word="false" fo:text-indent="0cm"
-				style:auto-text-indent="false" style:font-name="標楷體" fo:font-size="10pt"
-				style:font-name-asian="標楷體" style:font-size-asian="10pt"
-				style:font-size-complex="10pt" />
+				fo:margin-right="0cm" style:font-name="標楷體" style:font-name-asian="標楷體"
+				fo:line-height="0.33cm" fo:text-indent="1.482cm"
+				style:auto-text-indent="false" />
 		</style:style>
 		<style:style style:name="T1" style:family="text">
 			<style:properties fo:color="#000080"
@@ -657,6 +642,9 @@
 			<style:properties fo:font-size="10pt" fo:language="en"
 				fo:country="US" />
 		</style:style>
+		<style:style style:name="T13" style:family="text">
+			<style:properties fo:font-size="8pt" />
+		</style:style>
 		<style:style style:name="fr1" style:family="graphics"
 			style:parent-style-name="Graphics">
 			<style:properties fo:margin-left="0cm"
@@ -664,21 +652,19 @@
 				style:run-through="foreground" style:wrap="none" style:vertical-pos="middle"
 				style:vertical-rel="paragraph" style:horizontal-pos="center"
 				style:horizontal-rel="paragraph" fo:padding="0cm" fo:border="none"
-				style:shadow="none" style:mirror="none" draw:mirror="false"
-				fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%"
-				draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%"
-				draw:gamma="1" draw:color-inversion="false" draw:color-mode="standard"
-				draw:transparency="0%" />
+				style:shadow="none" style:mirror="none" fo:clip="rect(0cm 0cm 0cm 0cm)"
+				draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%"
+				draw:blue="0%" draw:gamma="1" draw:color-inversion="false"
+				draw:transparency="0%" draw:color-mode="standard" />
 		</style:style>
 		<style:style style:name="fr2" style:family="graphics"
 			style:parent-style-name="Graphics">
 			<style:properties style:vertical-pos="middle"
 				style:vertical-rel="paragraph" style:horizontal-pos="center"
-				style:horizontal-rel="paragraph" style:mirror="none" draw:mirror="false"
-				fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%"
-				draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%"
-				draw:gamma="1" draw:color-inversion="false" draw:color-mode="standard"
-				draw:transparency="0%" />
+				style:horizontal-rel="paragraph" style:mirror="none"
+				fo:clip="rect(0cm 0cm 0cm 0cm)" draw:luminance="0%" draw:contrast="0%"
+				draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="1"
+				draw:color-inversion="false" draw:transparency="0%" draw:color-mode="standard" />
 		</style:style>
 		<text:list-style style:name="L1">
 			<text:list-level-style-number
@@ -742,7 +728,7 @@
 			</text:list-level-style-number>
 		</text:list-style>
 	</office:automatic-styles>
-	<office:body text:use-soft-page-breaks="true">
+	<office:body>
 		<text:sequence-decls>
 			<text:sequence-decl text:display-outline-level="0"
 				text:name="Illustration" />
@@ -765,7 +751,7 @@
 			座號：
 			<text:span text:style-name="T1">{座號}</text:span>
 		</text:p>
-		<text:p text:style-name="P13">一、學習領域評量</text:p>
+		<text:p text:style-name="P3">一、學習領域評量</text:p>
 		<table:table table:name="Table1" table:style-name="Table1">
 			<table:table-column table:style-name="Table1.A" />
 			<table:table-column table:style-name="Table1.B" />
@@ -777,31 +763,31 @@
 				<table:table-row>
 					<table:table-cell table:style-name="Table1.A1"
 						table:number-columns-spanned="2" table:value-type="string">
-						<text:p text:style-name="P5">主軸 </text:p>
+						<text:p text:style-name="P4">主軸 </text:p>
 					</table:table-cell>
 					<table:covered-table-cell />
 					<table:table-cell table:style-name="Table1.C1"
 						table:value-type="string">
-						<text:p text:style-name="P9">科目</text:p>
+						<text:p text:style-name="P5">科目</text:p>
 					</table:table-cell>
 					<table:table-cell table:style-name="Table1.C1"
 						table:value-type="string">
-						<text:p text:style-name="P9">加權</text:p>
+						<text:p text:style-name="P5">加權</text:p>
 					</table:table-cell>
 					<table:table-cell table:style-name="Table1.C1"
 						table:value-type="string">
-						<text:p text:style-name="P9">等第</text:p>
+						<text:p text:style-name="P5">等第</text:p>
 					</table:table-cell>
 					<table:table-cell table:style-name="Table1.F1"
 						table:value-type="string">
-						<text:p text:style-name="P9">努力程度 (學習能力)</text:p>
+						<text:p text:style-name="P5">努力程度 (學習能力)</text:p>
 					</table:table-cell>
 				</table:table-row>
 			</table:table-header-rows>
 			<table:table-row>
 				<table:table-cell table:style-name="Table1.A2"
 					table:value-type="string">
-					<text:p text:style-name="P7">領域主軸</text:p>
+					<text:p text:style-name="P6">領域主軸</text:p>
 				</table:table-cell>
 				<table:table-cell table:number-columns-spanned="5">
 					<table:sub-table>
@@ -813,7 +799,7 @@
 						<table:table-row>
 							<table:table-cell table:style-name="Table1.A2"
 								table:value-type="string">
-								<text:p text:style-name="P7">語文</text:p>
+								<text:p text:style-name="P6">語文</text:p>
 							</table:table-cell>
 							<table:table-cell table:number-columns-spanned="4">
 								<table:sub-table>
@@ -824,37 +810,37 @@
 									<table:table-row>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P7">國文</text:p>
+											<text:p text:style-name="P6">國文</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{語文-國文加權}</text:p>
+											<text:p text:style-name="P7">{語文-國文加權}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{語文-國文等第}</text:p>
+											<text:p text:style-name="P7">{語文-國文等第}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.B2.2.1.4.1"
 											table:value-type="string">
-											<text:p text:style-name="P22">{語文-國文努力程度}</text:p>
+											<text:p text:style-name="P8">{語文-國文努力程度}</text:p>
 										</table:table-cell>
 									</table:table-row>
 									<table:table-row>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P7">英語</text:p>
+											<text:p text:style-name="P6">英語</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{語文-英語加權}</text:p>
+											<text:p text:style-name="P7">{語文-英語加權}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P22">{語文-英語等第}</text:p>
+											<text:p text:style-name="P8">{語文-英語等第}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.B2.2.1.4.1"
 											table:value-type="string">
-											<text:p text:style-name="P21">{語文-英語努力程度}</text:p>
+											<text:p text:style-name="P7">{語文-英語努力程度}</text:p>
 										</table:table-cell>
 									</table:table-row>
 								</table:sub-table>
@@ -866,29 +852,29 @@
 						<table:table-row>
 							<table:table-cell table:style-name="Table1.A2"
 								table:value-type="string">
-								<text:p text:style-name="P7">數學</text:p>
+								<text:p text:style-name="P6">數學</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table1.A2"
 								table:value-type="string">
-								<text:p text:style-name="P7">數學</text:p>
+								<text:p text:style-name="P6">數學</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table1.A2"
 								table:value-type="string">
-								<text:p text:style-name="P21">{數學加權}</text:p>
+								<text:p text:style-name="P7">{數學加權}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table1.A2"
 								table:value-type="string">
-								<text:p text:style-name="P21">{數學等第}</text:p>
+								<text:p text:style-name="P7">{數學等第}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table1.B2.2.1.4.1"
 								table:value-type="string">
-								<text:p text:style-name="P21">{數學努力程度}</text:p>
+								<text:p text:style-name="P7">{數學努力程度}</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
 							<table:table-cell table:style-name="Table1.A2"
 								table:value-type="string">
-								<text:p text:style-name="P7">社會</text:p>
+								<text:p text:style-name="P6">社會</text:p>
 							</table:table-cell>
 							<table:table-cell table:number-columns-spanned="4">
 								<table:sub-table>
@@ -899,55 +885,55 @@
 									<table:table-row>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P7">歷史</text:p>
+											<text:p text:style-name="P6">歷史</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{社會-歷史加權}</text:p>
+											<text:p text:style-name="P7">{社會-歷史加權}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{社會-歷史等第}</text:p>
+											<text:p text:style-name="P7">{社會-歷史等第}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.B2.2.1.4.1"
 											table:value-type="string">
-											<text:p text:style-name="P21">{社會-歷史努力程度}</text:p>
+											<text:p text:style-name="P7">{社會-歷史努力程度}</text:p>
 										</table:table-cell>
 									</table:table-row>
 									<table:table-row>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P7">地理</text:p>
+											<text:p text:style-name="P6">地理</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{社會-地理加權}</text:p>
+											<text:p text:style-name="P7">{社會-地理加權}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{社會-地理等第}</text:p>
+											<text:p text:style-name="P7">{社會-地理等第}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.B2.2.1.4.1"
 											table:value-type="string">
-											<text:p text:style-name="P21">{社會-地理努力程度}</text:p>
+											<text:p text:style-name="P7">{社會-地理努力程度}</text:p>
 										</table:table-cell>
 									</table:table-row>
 									<table:table-row>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P7">公民</text:p>
+											<text:p text:style-name="P6">公民</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{社會-公民加權}</text:p>
+											<text:p text:style-name="P7">{社會-公民加權}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{社會-公民等第}</text:p>
+											<text:p text:style-name="P7">{社會-公民等第}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.B2.2.1.4.1"
 											table:value-type="string">
-											<text:p text:style-name="P21">{社會-公民努力程度}</text:p>
+											<text:p text:style-name="P7">{社會-公民努力程度}</text:p>
 										</table:table-cell>
 									</table:table-row>
 								</table:sub-table>
@@ -959,29 +945,29 @@
 						<table:table-row>
 							<table:table-cell table:style-name="Table1.A2"
 								table:value-type="string">
-								<text:p text:style-name="P7">自然與生活科技</text:p>
+								<text:p text:style-name="P6">自然與生活科技</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table1.A2"
 								table:value-type="string">
-								<text:p text:style-name="P12">自然與生活科技</text:p>
+								<text:p text:style-name="T13">自然與生活科技</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table1.A2"
 								table:value-type="string">
-								<text:p text:style-name="P21">{自然與生活科技-自然與生活科技加權}</text:p>
+								<text:p text:style-name="P7">{自然與生活科技-自然與生活科技加權}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table1.A2"
 								table:value-type="string">
-								<text:p text:style-name="P21">{自然與生活科技-自然與生活科技等第}</text:p>
+								<text:p text:style-name="P7">{自然與生活科技-自然與生活科技等第}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table1.B2.2.1.4.1"
 								table:value-type="string">
-								<text:p text:style-name="P21">{自然與生活科技-自然與生活科技努力程度}</text:p>
+								<text:p text:style-name="P7">{自然與生活科技-自然與生活科技努力程度}</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
 							<table:table-cell table:style-name="Table1.A2"
 								table:value-type="string">
-								<text:p text:style-name="P7">健康與體育</text:p>
+								<text:p text:style-name="P6">健康與體育</text:p>
 							</table:table-cell>
 							<table:table-cell table:number-columns-spanned="4">
 								<table:sub-table>
@@ -992,37 +978,37 @@
 									<table:table-row>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P7">健康教育</text:p>
+											<text:p text:style-name="P6">健康教育</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{健康與體育-健教加權}</text:p>
+											<text:p text:style-name="P7">{健康與體育-健教加權}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{健康與體育-健教等第}</text:p>
+											<text:p text:style-name="P7">{健康與體育-健教等第}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.B2.2.1.4.1"
 											table:value-type="string">
-											<text:p text:style-name="P21">{健康與體育-健教努力程度}</text:p>
+											<text:p text:style-name="P7">{健康與體育-健教努力程度}</text:p>
 										</table:table-cell>
 									</table:table-row>
 									<table:table-row>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P7">體育</text:p>
+											<text:p text:style-name="P6">體育</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{健康與體育-體育加權}</text:p>
+											<text:p text:style-name="P7">{健康與體育-體育加權}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{健康與體育-體育等第}</text:p>
+											<text:p text:style-name="P7">{健康與體育-體育等第}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.B2.2.1.4.1"
 											table:value-type="string">
-											<text:p text:style-name="P21">{健康與體育-體育努力程度}</text:p>
+											<text:p text:style-name="P7">{健康與體育-體育努力程度}</text:p>
 										</table:table-cell>
 									</table:table-row>
 								</table:sub-table>
@@ -1034,7 +1020,7 @@
 						<table:table-row>
 							<table:table-cell table:style-name="Table1.A2"
 								table:value-type="string">
-								<text:p text:style-name="P7">藝術與人文</text:p>
+								<text:p text:style-name="P6">藝術與人文</text:p>
 							</table:table-cell>
 							<table:table-cell table:number-columns-spanned="4">
 								<table:sub-table>
@@ -1045,55 +1031,55 @@
 									<table:table-row>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P7">聽覺藝術</text:p>
+											<text:p text:style-name="P6">聽覺藝術</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{藝術與人文-聽覺藝術加權}</text:p>
+											<text:p text:style-name="P7">{藝術與人文-聽覺藝術加權}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{藝術與人文-聽覺藝術等第}</text:p>
+											<text:p text:style-name="P7">{藝術與人文-聽覺藝術等第}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.B2.2.1.4.1"
 											table:value-type="string">
-											<text:p text:style-name="P21">{藝術與人文-聽覺藝術努力程度}</text:p>
+											<text:p text:style-name="P7">{藝術與人文-聽覺藝術努力程度}</text:p>
 										</table:table-cell>
 									</table:table-row>
 									<table:table-row>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P7">表演藝術</text:p>
+											<text:p text:style-name="P6">表演藝術</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{藝術與人文-表演藝術加權}</text:p>
+											<text:p text:style-name="P7">{藝術與人文-表演藝術加權}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{藝術與人文-表演藝術等第}</text:p>
+											<text:p text:style-name="P7">{藝術與人文-表演藝術等第}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.B2.2.1.4.1"
 											table:value-type="string">
-											<text:p text:style-name="P21">{藝術與人文-表演藝術努力程度}</text:p>
+											<text:p text:style-name="P7">{藝術與人文-表演藝術努力程度}</text:p>
 										</table:table-cell>
 									</table:table-row>
 									<table:table-row>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P7">視覺藝術</text:p>
+											<text:p text:style-name="P6">視覺藝術</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{藝術與人文-視覺藝術加權}</text:p>
+											<text:p text:style-name="P7">{藝術與人文-視覺藝術加權}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{藝術與人文-視覺藝術等第}</text:p>
+											<text:p text:style-name="P7">{藝術與人文-視覺藝術等第}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.B2.2.1.4.1"
 											table:value-type="string">
-											<text:p text:style-name="P21">{藝術與人文-視覺藝術努力程度}</text:p>
+											<text:p text:style-name="P7">{藝術與人文-視覺藝術努力程度}</text:p>
 										</table:table-cell>
 									</table:table-row>
 								</table:sub-table>
@@ -1105,7 +1091,7 @@
 						<table:table-row>
 							<table:table-cell table:style-name="Table1.A2"
 								table:value-type="string">
-								<text:p text:style-name="P7">綜合活動</text:p>
+								<text:p text:style-name="P6">綜合活動</text:p>
 							</table:table-cell>
 							<table:table-cell table:number-columns-spanned="4">
 								<table:sub-table>
@@ -1116,55 +1102,55 @@
 									<table:table-row>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P7">綜合一</text:p>
+											<text:p text:style-name="P6">綜合一</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{綜合活動-綜合一加權}</text:p>
+											<text:p text:style-name="P7">{綜合活動-綜合一加權}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{綜合活動-綜合一等第}</text:p>
+											<text:p text:style-name="P7">{綜合活動-綜合一等第}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.B2.2.1.4.1"
 											table:value-type="string">
-											<text:p text:style-name="P21">{綜合活動-綜合一努力程度}</text:p>
+											<text:p text:style-name="P7">{綜合活動-綜合一努力程度}</text:p>
 										</table:table-cell>
 									</table:table-row>
 									<table:table-row>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P8">綜合二</text:p>
+											<text:p text:style-name="P9">綜合二</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{綜合活動-綜合二加權}</text:p>
+											<text:p text:style-name="P7">{綜合活動-綜合二加權}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P21">{綜合活動-綜合二等第}</text:p>
+											<text:p text:style-name="P7">{綜合活動-綜合二等第}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.B2.2.1.4.1"
 											table:value-type="string">
-											<text:p text:style-name="P21">{綜合活動-綜合二努力程度}</text:p>
+											<text:p text:style-name="P7">{綜合活動-綜合二努力程度}</text:p>
 										</table:table-cell>
 									</table:table-row>
 									<table:table-row>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P7">輔導</text:p>
+											<text:p text:style-name="P6">輔導</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P20">{綜合活動-輔導加權}</text:p>
+											<text:p text:style-name="P10">{綜合活動-輔導加權}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.A2"
 											table:value-type="string">
-											<text:p text:style-name="P20">{綜合活動-輔導等第}</text:p>
+											<text:p text:style-name="P10">{綜合活動-輔導等第}</text:p>
 										</table:table-cell>
 										<table:table-cell table:style-name="Table1.B2.2.1.4.1"
 											table:value-type="string">
-											<text:p text:style-name="P20">{綜合活動-輔導努力程度}</text:p>
+											<text:p text:style-name="P10">{綜合活動-輔導努力程度}</text:p>
 										</table:table-cell>
 									</table:table-row>
 								</table:sub-table>
@@ -1176,20 +1162,20 @@
 						<table:table-row>
 							<table:table-cell table:style-name="Table1.A2"
 								table:number-columns-spanned="2" table:value-type="string">
-								<text:p text:style-name="P7">學期總平均</text:p>
+								<text:p text:style-name="P6">學期總平均</text:p>
 							</table:table-cell>
 							<table:covered-table-cell />
 							<table:table-cell table:style-name="Table1.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{九_學期總平均加權}</text:p>
+								<text:p text:style-name="P11">{九_學期總平均加權}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table1.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{九_學期總平均等第}</text:p>
+								<text:p text:style-name="P11">{九_學期總平均等第}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table1.B2.2.1.4.1"
 								table:value-type="string">
-								<text:p text:style-name="P23" />
+								<text:p text:style-name="P11" />
 							</table:table-cell>
 						</table:table-row>
 					</table:sub-table>
@@ -1200,7 +1186,7 @@
 				<table:covered-table-cell />
 			</table:table-row>
 		</table:table>
-		<text:p text:style-name="P13">二、平常生活表現評量</text:p>
+		<text:p text:style-name="P3">二、平常生活表現評量</text:p>
 		<table:table table:name="Table2" table:style-name="Table2">
 			<table:table-column table:style-name="Table2.A"
 				table:number-columns-repeated="2" />
@@ -1209,15 +1195,15 @@
 				<table:table-row>
 					<table:table-cell table:style-name="Table2.A1"
 						table:value-type="string">
-						<text:p text:style-name="P6">評量項目</text:p>
+						<text:p text:style-name="P12">評量項目</text:p>
 					</table:table-cell>
 					<table:table-cell table:style-name="Table2.A1"
 						table:value-type="string">
-						<text:p text:style-name="P6">努力程度</text:p>
+						<text:p text:style-name="P12">努力程度</text:p>
 					</table:table-cell>
 					<table:table-cell table:style-name="Table2.C1"
 						table:value-type="string">
-						<text:p text:style-name="P9">導師評語及建議</text:p>
+						<text:p text:style-name="P5">導師評語及建議</text:p>
 					</table:table-cell>
 				</table:table-row>
 			</table:table-header-rows>
@@ -1229,41 +1215,41 @@
 						<table:table-row>
 							<table:table-cell table:style-name="Table2.A2.1.1"
 								table:value-type="string">
-								<text:p text:style-name="P3">品德言行表現</text:p>
+								<text:p text:style-name="P13">品德言行表現</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table2.A2.2.1"
 								table:value-type="string">
-								<text:p text:style-name="P23">{平常行為表現}</text:p>
+								<text:p text:style-name="P11">{平常行為表現}</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
 							<table:table-cell table:style-name="Table2.A2.1.1"
 								table:value-type="string">
-								<text:p text:style-name="P4">團體活動表現</text:p>
+								<text:p text:style-name="P14">團體活動表現</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table2.A2.2.1"
 								table:value-type="string">
-								<text:p text:style-name="P23">{團體活動表現}</text:p>
+								<text:p text:style-name="P11">{團體活動表現}</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
 							<table:table-cell table:style-name="Table2.A2.1.1"
 								table:value-type="string">
-								<text:p text:style-name="P4">公共服務</text:p>
+								<text:p text:style-name="P14">公共服務</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table2.A2.2.1"
 								table:value-type="string">
-								<text:p text:style-name="P23">{公共服務}</text:p>
+								<text:p text:style-name="P11">{公共服務}</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
 							<table:table-cell table:style-name="Table2.A2.1.1"
 								table:value-type="string">
-								<text:p text:style-name="P4">校外特殊表現</text:p>
+								<text:p text:style-name="P14">校外特殊表現</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table2.A2.2.1"
 								table:value-type="string">
-								<text:p text:style-name="P23">{校外特殊表現}</text:p>
+								<text:p text:style-name="P11">{校外特殊表現}</text:p>
 							</table:table-cell>
 						</table:table-row>
 					</table:sub-table>
@@ -1271,7 +1257,7 @@
 				<table:covered-table-cell />
 				<table:table-cell table:style-name="Table2.C2"
 					table:value-type="string">
-					<text:p text:style-name="P24">{導師評語及建議}</text:p>
+					<text:p text:style-name="P15">{導師評語及建議}</text:p>
 				</table:table-cell>
 			</table:table-row>
 		</table:table>
@@ -1282,7 +1268,7 @@
 				<table:table-row>
 					<table:table-cell table:style-name="Table3.A1"
 						table:value-type="string">
-						<text:p text:style-name="P6">出缺席記錄</text:p>
+						<text:p text:style-name="P12">出缺席記錄</text:p>
 					</table:table-cell>
 					<table:table-cell>
 						<table:sub-table>
@@ -1293,53 +1279,53 @@
 							<table:table-row>
 								<table:table-cell table:style-name="Table3.A1"
 									table:value-type="string">
-									<text:p text:style-name="P4">事假</text:p>
+									<text:p text:style-name="P14">事假</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Table3.A1"
 									table:value-type="string">
-									<text:p text:style-name="P4">病假</text:p>
+									<text:p text:style-name="P14">病假</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Table3.A1"
 									table:value-type="string">
-									<text:p text:style-name="P4">曠課</text:p>
+									<text:p text:style-name="P14">曠課</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Table3.A1"
 									table:value-type="string">
-									<text:p text:style-name="P4">集會</text:p>
+									<text:p text:style-name="P14">集會</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Table3.A1"
 									table:value-type="string">
-									<text:p text:style-name="P4">公假</text:p>
+									<text:p text:style-name="P14">公假</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Table3.B1.6.1"
 									table:value-type="string">
-									<text:p text:style-name="P3">其他</text:p>
+									<text:p text:style-name="P13">其他</text:p>
 								</table:table-cell>
 							</table:table-row>
 							<table:table-row>
 								<table:table-cell table:style-name="Table3.B1.1.2"
 									table:value-type="string">
-									<text:p text:style-name="P27">{事假_成}</text:p>
+									<text:p text:style-name="P16">{事假_成}</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Table3.B1.1.2"
 									table:value-type="string">
-									<text:p text:style-name="P27">{病假_成}</text:p>
+									<text:p text:style-name="P16">{病假_成}</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Table3.B1.1.2"
 									table:value-type="string">
-									<text:p text:style-name="P27">{曠課_成}</text:p>
+									<text:p text:style-name="P16">{曠課_成}</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Table3.B1.1.2"
 									table:value-type="string">
-									<text:p text:style-name="P27">{集會_成}</text:p>
+									<text:p text:style-name="P16">{集會_成}</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Table3.B1.1.2"
 									table:value-type="string">
-									<text:p text:style-name="P27">{公假_成}</text:p>
+									<text:p text:style-name="P16">{公假_成}</text:p>
 								</table:table-cell>
 								<table:table-cell table:style-name="Table3.B1.6.2"
 									table:value-type="string">
-									<text:p text:style-name="P27">{其他_成}</text:p>
+									<text:p text:style-name="P16">{其他_成}</text:p>
 								</table:table-cell>
 							</table:table-row>
 						</table:sub-table>
@@ -1349,7 +1335,7 @@
 			<table:table-row>
 				<table:table-cell table:style-name="Table3.A2"
 					table:value-type="string">
-					<text:p text:style-name="P9">獎懲記錄</text:p>
+					<text:p text:style-name="P5">獎懲記錄</text:p>
 				</table:table-cell>
 				<table:table-cell>
 					<table:sub-table>
@@ -1360,63 +1346,63 @@
 						<table:table-row>
 							<table:table-cell table:style-name="Table3.A2"
 								table:value-type="string">
-								<text:p text:style-name="P4">大功</text:p>
+								<text:p text:style-name="P14">大功</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table3.A2"
 								table:value-type="string">
-								<text:p text:style-name="P4">小功</text:p>
+								<text:p text:style-name="P14">小功</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table3.A2"
 								table:value-type="string">
-								<text:p text:style-name="P4">嘉獎</text:p>
+								<text:p text:style-name="P14">嘉獎</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table3.A2"
 								table:value-type="string">
-								<text:p text:style-name="P4">大過</text:p>
+								<text:p text:style-name="P14">大過</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table3.A2"
 								table:value-type="string">
-								<text:p text:style-name="P4">小過</text:p>
+								<text:p text:style-name="P14">小過</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table3.B2.6.1"
 								table:value-type="string">
-								<text:p text:style-name="P4">警告</text:p>
+								<text:p text:style-name="P14">警告</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
 							<table:table-cell table:style-name="Table3.B1.1.2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{大功_成}</text:p>
+								<text:p text:style-name="P11">{大功_成}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table3.B1.1.2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{小功_成}</text:p>
+								<text:p text:style-name="P11">{小功_成}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table3.B1.1.2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{嘉獎_成}</text:p>
+								<text:p text:style-name="P11">{嘉獎_成}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table3.B1.1.2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{大過_成}</text:p>
+								<text:p text:style-name="P11">{大過_成}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table3.B1.1.2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{小過_成}</text:p>
+								<text:p text:style-name="P11">{小過_成}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table3.B1.6.2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{警告_成}</text:p>
+								<text:p text:style-name="P11">{警告_成}</text:p>
 							</table:table-cell>
 						</table:table-row>
 					</table:sub-table>
 				</table:table-cell>
 			</table:table-row>
 		</table:table>
-		<text:p text:style-name="P30">說明：</text:p>
+		<text:p text:style-name="P17">說明：</text:p>
 		<text:ordered-list text:style-name="L1">
 			<text:list-item>
-				<text:p text:style-name="P40">
+				<text:p text:style-name="P18">
 					<text:span text:style-name="T2">成績轉換基準：</text:span>
 					<text:span text:style-name="T3">
 						優等：九十分以上者。甲等：八十分以上未滿九十分者。乙等：七十分以上未滿八十分者。
@@ -1426,10 +1412,9 @@
 				</text:p>
 			</text:list-item>
 			<text:list-item>
-				<text:p text:style-name="P40">
+				<text:p text:style-name="P18">
 					<text:span text:style-name="T3">努力程度:</text:span>
-					<text:span text:style-name="T3">國一以「跟人學、聽聞講說」為內涵、國二以「跟人學、聽聞講說、好樂學習」為內涵、國三以「跟人學、聽聞講說、好樂學習、善用時間、規劃學習」為內涵，用「
-					</text:span>
+					<text:span text:style-name="T3">國一以「跟人學、聽聞講說」為內涵、國二以「跟人學、聽聞講說、好樂學習」為內涵、國三以「跟人學、聽聞講說、好樂學習、善用時間、規劃學習」為內涵，用「 </text:span>
 					<text:span text:style-name="T4">5</text:span>
 					<text:span text:style-name="T3">值得讚賞、</text:span>
 					<text:span text:style-name="T4">4</text:span>
@@ -1438,9 +1423,7 @@
 					<text:span text:style-name="T3">表現尚可、</text:span>
 					<text:span text:style-name="T4">2</text:span>
 					<text:span text:style-name="T3">需再加油、</text:span>
-					<text:span text:style-name="T5">1 有待改進 」呈</text:span>
-					<text:soft-page-break />
-					<text:span text:style-name="T5">現之。</text:span>
+					<text:span text:style-name="T5">1 有待改進 」呈現之。</text:span>
 				</text:p>
 			</text:list-item>
 		</text:ordered-list>
@@ -1454,19 +1437,19 @@
 				<table:table-row>
 					<table:table-cell table:style-name="Table4.A1"
 						table:value-type="string">
-						<text:p text:style-name="P28">校長</text:p>
+						<text:p text:style-name="P19">校長</text:p>
 					</table:table-cell>
 					<table:table-cell table:style-name="Table4.A1"
 						table:value-type="string">
-						<text:p text:style-name="P28">教務主任</text:p>
+						<text:p text:style-name="P19">教務主任</text:p>
 					</table:table-cell>
 					<table:table-cell table:style-name="Table4.A1"
 						table:value-type="string">
-						<text:p text:style-name="P28">學務主任</text:p>
+						<text:p text:style-name="P19">學務主任</text:p>
 					</table:table-cell>
 					<table:table-cell table:style-name="Table4.D1"
 						table:number-columns-spanned="2" table:value-type="string">
-						<text:p text:style-name="P28">導師</text:p>
+						<text:p text:style-name="P19">導師</text:p>
 					</table:table-cell>
 					<table:covered-table-cell />
 				</table:table-row>
@@ -1474,7 +1457,7 @@
 			<table:table-row table:style-name="Table4.2">
 				<table:table-cell table:style-name="Table4.A2"
 					table:value-type="string">
-					<text:p text:style-name="P19">
+					<text:p text:style-name="P20">
 						<draw:image draw:style-name="fr1" draw:name="signature1"
 							text:anchor-type="char" svg:width="3.1cm" svg:height="0.8cm"
 							draw:z-index="0" xlink:href="{SIGN1}"
@@ -1483,7 +1466,7 @@
 				</table:table-cell>
 				<table:table-cell table:style-name="Table4.A2"
 					table:value-type="string">
-					<text:p text:style-name="P19">
+					<text:p text:style-name="P20">
 						<draw:image draw:style-name="fr2" draw:name="signature2"
 							text:anchor-type="char" svg:width="3.1cm" svg:height="0.8cm"
 							draw:z-index="2" xlink:href="{SIGN2}"
@@ -1491,8 +1474,8 @@
 					</text:p>
 				</table:table-cell>
 				<table:table-cell table:style-name="Table4.A2"
-					table:value-type="string">				
-					<text:p text:style-name="P19">
+					table:value-type="string">
+					<text:p text:style-name="P20">
 						<draw:image draw:style-name="fr2" draw:name="signature3"
 							text:anchor-type="char" svg:width="3.1cm" svg:height="0.8cm"
 							draw:z-index="1" xlink:href="{SIGN3}"
@@ -1501,35 +1484,35 @@
 				</table:table-cell>
 				<table:table-cell table:style-name="Table4.D2"
 					table:number-columns-spanned="2" table:value-type="string">
-					<text:p text:style-name="P18">{導師}</text:p>
+					<text:p text:style-name="P21">{導師}</text:p>
 				</table:table-cell>
 				<table:covered-table-cell />
 			</table:table-row>
 			<table:table-row table:style-name="Table4.2">
 				<table:table-cell table:style-name="Table4.A2"
 					table:value-type="string">
-					<text:p text:style-name="P25">家長意見</text:p>
+					<text:p text:style-name="P22">家長意見</text:p>
 				</table:table-cell>
 				<table:table-cell table:style-name="Table4.A2"
 					table:number-columns-spanned="2" table:value-type="string">
-					<text:p text:style-name="P24" />
+					<text:p text:style-name="P15" />
 				</table:table-cell>
 				<table:covered-table-cell />
 				<table:table-cell table:style-name="Table4.A2"
 					table:value-type="string">
-					<text:p text:style-name="P19">簽章</text:p>
+					<text:p text:style-name="P20">簽章</text:p>
 				</table:table-cell>
 				<table:table-cell table:style-name="Table4.D2"
 					table:value-type="string">
-					<text:p text:style-name="P24" />
+					<text:p text:style-name="P15" />
 				</table:table-cell>
 			</table:table-row>
 		</table:table>
-		<text:p text:style-name="P10" />
-		<text:p text:style-name="P1" />
+		<text:p text:style-name="P23" />
+		<!-- <text:p text:style-name="P1" /> -->
 		<text:p text:style-name="P1">{學校全銜}{學年}學年度{學期}學期成績單</text:p>
 		<text:p text:style-name="P2" />
-		<text:p text:style-name="P11">
+		<text:p text:style-name="P24">
 			班級：
 			<text:span text:style-name="T1">{班級}</text:span>
 			姓名：
@@ -1539,7 +1522,7 @@
 			座號：
 			<text:span text:style-name="T1">{座號}</text:span>
 		</text:p>
-		<text:p text:style-name="P14">三、彈性課程評量(本位課程)</text:p>
+		<text:p text:style-name="P25">三、彈性課程評量(本位課程)</text:p>
 		<table:table table:name="Table5" table:style-name="Table5">
 			<table:table-column table:style-name="Table5.A" />
 			<table:table-column table:style-name="Table5.B" />
@@ -1550,31 +1533,31 @@
 				<table:table-row>
 					<table:table-cell table:style-name="Table5.A1"
 						table:value-type="string">
-						<text:p text:style-name="P31">
+						<text:p text:style-name="P26">
 							<text:span text:style-name="T6">領域</text:span>
 						</text:p>
 					</table:table-cell>
 					<table:table-cell table:style-name="Table5.A1"
 						table:value-type="string">
-						<text:p text:style-name="P31">
+						<text:p text:style-name="P26">
 							<text:span text:style-name="T7">科目</text:span>
 						</text:p>
 					</table:table-cell>
 					<table:table-cell table:style-name="Table5.A1"
 						table:value-type="string">
-						<text:p text:style-name="P31">
+						<text:p text:style-name="P26">
 							<text:span text:style-name="T7">加權</text:span>
 						</text:p>
 					</table:table-cell>
 					<table:table-cell table:style-name="Table5.A1"
 						table:value-type="string">
-						<text:p text:style-name="P31">
+						<text:p text:style-name="P26">
 							<text:span text:style-name="T7">等第</text:span>
 						</text:p>
 					</table:table-cell>
 					<table:table-cell table:style-name="Table5.E1"
 						table:value-type="string">
-						<text:p text:style-name="P31">
+						<text:p text:style-name="P26">
 							<text:span text:style-name="T6">努力程度</text:span>
 							<text:span text:style-name="T8">(</text:span>
 							<text:span text:style-name="T6">學習能力</text:span>
@@ -1586,7 +1569,7 @@
 			<table:table-row>
 				<table:table-cell table:style-name="Table5.A2"
 					table:value-type="string">
-					<text:p text:style-name="P32">基礎主軸</text:p>
+					<text:p text:style-name="P27">基礎主軸</text:p>
 				</table:table-cell>
 				<table:table-cell table:number-columns-spanned="4">
 					<table:sub-table>
@@ -1597,55 +1580,55 @@
 						<table:table-row>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P26">經典背誦</text:p>
+								<text:p text:style-name="P28">經典背誦</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{基礎主軸-經典背誦加權}</text:p>
+								<text:p text:style-name="P11">{基礎主軸-經典背誦加權}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{基礎主軸-經典背誦等第}</text:p>
+								<text:p text:style-name="P11">{基礎主軸-經典背誦等第}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.B2.4.1"
 								table:value-type="string">
-								<text:p text:style-name="P23">{基礎主軸-經典背誦努力程度}</text:p>
+								<text:p text:style-name="P11">{基礎主軸-經典背誦努力程度}</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P26">書法硬筆字</text:p>
+								<text:p text:style-name="P28">書法硬筆字</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{基礎主軸-書法硬筆字加權}</text:p>
+								<text:p text:style-name="P11">{基礎主軸-書法硬筆字加權}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{基礎主軸-書法硬筆字等第}</text:p>
+								<text:p text:style-name="P11">{基礎主軸-書法硬筆字等第}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.B2.4.1"
 								table:value-type="string">
-								<text:p text:style-name="P23">{基礎主軸-書法硬筆字努力程度}</text:p>
+								<text:p text:style-name="P11">{基礎主軸-書法硬筆字努力程度}</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P26">總平均</text:p>
+								<text:p text:style-name="P28">總平均</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{基礎主軸_學期總平均加權}</text:p>
+								<text:p text:style-name="P11">{基礎主軸_學期總平均加權}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{基礎主軸_學期總平均等第}</text:p>
+								<text:p text:style-name="P11">{基礎主軸_學期總平均等第}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.B2.4.1"
 								table:value-type="string">
-								<text:p text:style-name="P23" />
+								<text:p text:style-name="P11" />
 							</table:table-cell>
 						</table:table-row>
 					</table:sub-table>
@@ -1657,7 +1640,7 @@
 			<table:table-row>
 				<table:table-cell table:style-name="Table5.A2"
 					table:value-type="string">
-					<text:p text:style-name="P32">生命主軸</text:p>
+					<text:p text:style-name="P27">生命主軸</text:p>
 				</table:table-cell>
 				<table:table-cell table:number-columns-spanned="4">
 					<table:sub-table>
@@ -1668,19 +1651,19 @@
 						<table:table-row>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P26">生命課程</text:p>
+								<text:p text:style-name="P28">生命課程</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生命主軸-生命課程加權}</text:p>
+								<text:p text:style-name="P11">{生命主軸-生命課程加權}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生命主軸-生命課程等第}</text:p>
+								<text:p text:style-name="P11">{生命主軸-生命課程等第}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.B2.4.1"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生命主軸-生命課程努力程度}</text:p>
+								<text:p text:style-name="P11">{生命主軸-生命課程努力程度}</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
@@ -1690,15 +1673,15 @@
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生命主軸_學期總平均加權}</text:p>
+								<text:p text:style-name="P11">{生命主軸_學期總平均加權}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生命主軸_學期總平均等第}</text:p>
+								<text:p text:style-name="P11">{生命主軸_學期總平均等第}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.B2.4.1"
 								table:value-type="string">
-								<text:p text:style-name="P23" />
+								<text:p text:style-name="P11" />
 							</table:table-cell>
 						</table:table-row>
 					</table:sub-table>
@@ -1710,7 +1693,7 @@
 			<table:table-row>
 				<table:table-cell table:style-name="Table5.A2"
 					table:value-type="string">
-					<text:p text:style-name="P26">生活主軸</text:p>
+					<text:p text:style-name="P28">生活主軸</text:p>
 				</table:table-cell>
 				<table:table-cell table:number-columns-spanned="4">
 					<table:sub-table>
@@ -1721,127 +1704,127 @@
 						<table:table-row>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P26">理念學習</text:p>
+								<text:p text:style-name="P28">理念學習</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸-理念學習加權}</text:p>
+								<text:p text:style-name="P11">{生活主軸-理念學習加權}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸-理念學習等第}</text:p>
+								<text:p text:style-name="P11">{生活主軸-理念學習等第}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.B2.4.1"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸-理念學習努力程度}</text:p>
+								<text:p text:style-name="P11">{生活主軸-理念學習努力程度}</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P26">生活規範</text:p>
+								<text:p text:style-name="P28">生活規範</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸-生活規範加權}</text:p>
+								<text:p text:style-name="P11">{生活主軸-生活規範加權}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸-生活規範等第}</text:p>
+								<text:p text:style-name="P11">{生活主軸-生活規範等第}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.B2.4.1"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸-生活規範努力程度}</text:p>
+								<text:p text:style-name="P11">{生活主軸-生活規範努力程度}</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P26">健康生活</text:p>
+								<text:p text:style-name="P28">健康生活</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸-健康生活加權}</text:p>
+								<text:p text:style-name="P11">{生活主軸-健康生活加權}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸-健康生活等第}</text:p>
+								<text:p text:style-name="P11">{生活主軸-健康生活等第}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.B2.4.1"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸-健康生活努力程度}</text:p>
+								<text:p text:style-name="P11">{生活主軸-健康生活努力程度}</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P26">生活技能</text:p>
+								<text:p text:style-name="P28">生活技能</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸-生活技能加權}</text:p>
+								<text:p text:style-name="P11">{生活主軸-生活技能加權}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸-生活技能等第}</text:p>
+								<text:p text:style-name="P11">{生活主軸-生活技能等第}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.B2.4.1"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸-生活技能努力程度}</text:p>
+								<text:p text:style-name="P11">{生活主軸-生活技能努力程度}</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P26">群己活動</text:p>
+								<text:p text:style-name="P28">群己活動</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸-群己活動加權}</text:p>
+								<text:p text:style-name="P11">{生活主軸-群己活動加權}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸-群己活動等第}</text:p>
+								<text:p text:style-name="P11">{生活主軸-群己活動等第}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.B2.4.1"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸-群己活動努力程度}</text:p>
+								<text:p text:style-name="P11">{生活主軸-群己活動努力程度}</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P26">服務學習</text:p>
+								<text:p text:style-name="P28">服務學習</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸-服務學習加權}</text:p>
+								<text:p text:style-name="P11">{生活主軸-服務學習加權}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸-服務學習等第}</text:p>
+								<text:p text:style-name="P11">{生活主軸-服務學習等第}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.B2.4.1"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸-服務學習努力程度}</text:p>
+								<text:p text:style-name="P11">{生活主軸-服務學習努力程度}</text:p>
 							</table:table-cell>
 						</table:table-row>
 						<table:table-row>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">總平均</text:p>
+								<text:p text:style-name="P11">總平均</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸_學期總平均加權}</text:p>
+								<text:p text:style-name="P11">{生活主軸_學期總平均加權}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
-								<text:p text:style-name="P23">{生活主軸_學期總平均等第}</text:p>
+								<text:p text:style-name="P11">{生活主軸_學期總平均等第}</text:p>
 							</table:table-cell>
 							<table:table-cell table:style-name="Table5.B2.4.1"
 								table:value-type="string">
-								<text:p text:style-name="P23" />
+								<text:p text:style-name="P11" />
 							</table:table-cell>
 						</table:table-row>
 					</table:sub-table>
@@ -1851,13 +1834,13 @@
 				<table:covered-table-cell />
 			</table:table-row>
 		</table:table>
-		<text:p text:style-name="P15">
+		<text:p text:style-name="P30">
 			<text:span text:style-name="T9">成績說明</text:span>
 		</text:p>
-		<text:p text:style-name="P16">四、學習目標及內容</text:p>
-		<text:p text:style-name="P17" />
+		<text:p text:style-name="P31">四、學習目標及內容</text:p>
+		<text:p text:style-name="P32" />
 		<text:p text:style-name="P33">(一) 基礎主軸：</text:p>
-		<text:p text:style-name="P35">
+		<text:p text:style-name="P34">
 			<text:s text:c="4" />
 			<text:span text:style-name="T10">1.</text:span>
 			<text:span text:style-name="T11">目標：（內）建立崇高人格，建構圓滿生命</text:span>
@@ -1866,60 +1849,52 @@
 			<text:span text:style-name="T10">-</text:span>
 			<text:span text:style-name="T11">成聖成賢、安邦</text:span>
 		</text:p>
-		<text:p text:style-name="P35">
+		<text:p text:style-name="P34">
 			<text:s text:c="7" />
 			<text:span text:style-name="T11">定國、安定社會。</text:span>
 		</text:p>
-		<text:p text:style-name="P35">
+		<text:p text:style-name="P34">
 			<text:s text:c="4" />
 			<text:span text:style-name="T10">2.</text:span>
 			<text:span text:style-name="T11">學習能力：</text:span>
 		</text:p>
-		<text:p text:style-name="P36">
-			<text:soft-page-break />
+		<text:p text:style-name="P35">
 			<text:span text:style-name="T10">(1)</text:span>
-			<text:span text:style-name="T11">好樂學習的能力：認識學習規劃者的功德、用心，課程內涵的意義及對我的幫助，了解學習的目的、學習
-			</text:span>
+			<text:span text:style-name="T11">好樂學習的能力：認識學習規劃者的功德、用心，課程內涵的意義及對我的幫助，了解學習的目的、學習</text:span>
 		</text:p>
-		<text:p text:style-name="P36">
+		<text:p text:style-name="P35">
 			<text:s text:c="3" />
-			<text:span text:style-name="T11">的好處、不學的壞處。培養學習的好樂心與歡喜心。
-			</text:span>
+			<text:span text:style-name="T11">的好處、不學的壞處。培養學習的好樂心與歡喜心。</text:span>
 		</text:p>
-		<text:p text:style-name="P36">
+		<text:p text:style-name="P35">
 			<text:span text:style-name="T10">(2)</text:span>
-			<text:span text:style-name="T11">聽聞講說的能力：培養聽說讀寫能力、記憶力、專注力、思惟力，課堂學習如何聽、如何講。
-			</text:span>
+			<text:span text:style-name="T11">聽聞講說的能力：培養聽說讀寫能力、記憶力、專注力、思惟力，課堂學習如何聽、如何講。</text:span>
 		</text:p>
-		<text:p text:style-name="P36">
+		<text:p text:style-name="P35">
 			<text:span text:style-name="T10">(3)</text:span>
-			<text:span text:style-name="T11">跟人學的能力：對老師的希求心、恭敬心和信心，並樂於與人切磋共學分享。
-			</text:span>
+			<text:span text:style-name="T11">跟人學的能力：對老師的希求心、恭敬心和信心，並樂於與人切磋共學分享。</text:span>
 		</text:p>
-		<text:p text:style-name="P36">
+		<text:p text:style-name="P35">
 			<text:span text:style-name="T10">(4)</text:span>
-			<text:span text:style-name="T11">善用時間的能力：珍惜學習的好條件、總結學習的成功經驗，從自己的緣起點下手去努力，懂得運用時間
-			</text:span>
+			<text:span text:style-name="T11">善用時間的能力：珍惜學習的好條件、總結學習的成功經驗，從自己的緣起點下手去努力，懂得運用時間</text:span>
 		</text:p>
-		<text:p text:style-name="P36">
+		<text:p text:style-name="P35">
 			<text:s text:c="3" />
 			<text:span text:style-name="T11">做有意義的事，不浪費時間。</text:span>
 		</text:p>
-		<text:p text:style-name="P36">
+		<text:p text:style-name="P35">
 			<text:span text:style-name="T10">(5)</text:span>
-			<text:span text:style-name="T11">規劃學習的能力：熟知課程的本末次第，課前的心理準備，落實課前預習、上課專心認真、下課復習，有
-			</text:span>
+			<text:span text:style-name="T11">規劃學習的能力：熟知課程的本末次第，課前的心理準備，落實課前預習、上課專心認真、下課復習，有</text:span>
 		</text:p>
-		<text:p text:style-name="P36">
+		<text:p text:style-name="P35">
 			<text:s text:c="3" />
-			<text:span text:style-name="T11">條有理。對於自己所學課程的整體概念、學習的次第，乃至生涯規劃及無限生命長遠學習的總別次第，有
-			</text:span>
+			<text:span text:style-name="T11">條有理。對於自己所學課程的整體概念、學習的次第，乃至生涯規劃及無限生命長遠學習的總別次第，有</text:span>
 		</text:p>
-		<text:p text:style-name="P36">
+		<text:p text:style-name="P35">
 			<text:s text:c="4" />
 			<text:span text:style-name="T11">正確的認識及規劃的能力。</text:span>
 		</text:p>
-		<text:p text:style-name="P37">
+		<text:p text:style-name="P36">
 			<text:span text:style-name="T10">3.</text:span>
 			<text:span text:style-name="T11">修學項目：</text:span>
 			<text:span text:style-name="T10">(1)</text:span>
@@ -1933,15 +1908,14 @@
 			<text:span text:style-name="T10">(5)</text:span>
 			<text:span text:style-name="T11">回顧展望</text:span>
 		</text:p>
-		<text:p text:style-name="P34">(二) 生命主軸：</text:p>
-		<text:p text:style-name="P37">
+		<text:p text:style-name="P37">(二) 生命主軸：</text:p>
+		<text:p text:style-name="P36">
 			<text:span text:style-name="T10">1.</text:span>
 			<text:span text:style-name="T11">課程目標：認識生命的真實意義和價值</text:span>
 		</text:p>
-		<text:p text:style-name="P37">
+		<text:p text:style-name="P36">
 			<text:span text:style-name="T10">2.</text:span>
-			<text:span text:style-name="T11">課程主軸：統攝成六大主題，內涵彼此相攝、相扣
-			</text:span>
+			<text:span text:style-name="T11">課程主軸：統攝成六大主題，內涵彼此相攝、相扣</text:span>
 		</text:p>
 		<text:p text:style-name="P38">
 			<text:span text:style-name="T10">(1)</text:span>
@@ -1957,20 +1931,19 @@
 			<text:span text:style-name="T10">(6)</text:span>
 			<text:span text:style-name="T11">共業環境</text:span>
 		</text:p>
-		<text:p text:style-name="P34">
-			(三) 生活主軸：
-			<text:span text:style-name="T11">「跟人學」，從做事中學習做人、學做人中把事做好
-			</text:span>
-		</text:p>
 		<text:p text:style-name="P37">
+			(三) 生活主軸：
+			<text:span text:style-name="T11">「跟人學」，從做事中學習做人、學做人中把事做好</text:span>
+		</text:p>
+		<text:p text:style-name="P36">
 			<text:span text:style-name="T10">1.</text:span>
 			<text:span text:style-name="T11">惜福：惜人、事、物之福</text:span>
 		</text:p>
-		<text:p text:style-name="P37">
+		<text:p text:style-name="P36">
 			<text:span text:style-name="T10">2.</text:span>
 			<text:span text:style-name="T11">習勞：習心力、體力之勞</text:span>
 		</text:p>
-		<text:p text:style-name="P37">
+		<text:p text:style-name="P36">
 			<text:span text:style-name="T10">3.</text:span>
 			<text:span text:style-name="T11">慈心理念</text:span>
 		</text:p>
@@ -1990,18 +1963,16 @@
 			<text:span text:style-name="T10">(6)</text:span>
 			<text:span text:style-name="T11">服務學習</text:span>
 		</text:p>
-		<text:p text:style-name="P34">(四)領域主軸：</text:p>
-		<text:p text:style-name="P37">
+		<text:p text:style-name="P37">(四)領域主軸：</text:p>
+		<text:p text:style-name="P36">
 			<text:span text:style-name="T10">1.</text:span>
-			<text:span text:style-name="T11">一切學問與技能以德育為根本，塑造一個建全與崇高理想的人文素養。
-			</text:span>
+			<text:span text:style-name="T11">一切學問與技能以德育為根本，塑造一個建全與崇高理想的人文素養。</text:span>
 		</text:p>
-		<text:p text:style-name="P37">
+		<text:p text:style-name="P36">
 			<text:span text:style-name="T10">2.</text:span>
-			<text:span text:style-name="T11">透由各領域科目的學習，達到各科的目標、成就各科的能力。
-			</text:span>
+			<text:span text:style-name="T11">透由各領域科目的學習，達到各科的目標、成就各科的能力。</text:span>
 		</text:p>
-		<text:p text:style-name="P37">
+		<text:p text:style-name="P36">
 			<text:span text:style-name="T12">3. </text:span>
 			<text:span text:style-name="T11">以此條件服務社會，貢獻大眾。</text:span>
 		</text:p>
