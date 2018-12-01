@@ -598,6 +598,15 @@
 				fo:line-height="0.33cm" fo:text-indent="1.482cm"
 				style:auto-text-indent="false" />
 		</style:style>
+		<style:style style:name="P40" style:family="paragraph"
+			style:parent-style-name="Table Contents">
+			<style:properties fo:font-variant="normal"
+				fo:text-transform="none" fo:color="#000000" style:font-name="標楷體"
+				fo:font-size="8pt" fo:letter-spacing="normal" fo:font-style="normal"
+				fo:font-weight="normal" style:font-name-asian="標楷體"
+				style:font-size-asian="8pt" style:font-size-complex="8pt"
+				fo:text-align="center" style:justify-single-word="false" />
+		</style:style>		
 		<style:style style:name="T1" style:family="text">
 			<style:properties fo:color="#000080"
 				style:text-underline="none" />
@@ -641,9 +650,6 @@
 		<style:style style:name="T12" style:family="text">
 			<style:properties fo:font-size="10pt" fo:language="en"
 				fo:country="US" />
-		</style:style>
-		<style:style style:name="T13" style:family="text">
-			<style:properties fo:font-size="8pt" />
 		</style:style>
 		<style:style style:name="fr1" style:family="graphics"
 			style:parent-style-name="Graphics">
