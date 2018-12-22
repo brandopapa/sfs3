@@ -1639,6 +1639,7 @@
 								<text:p text:style-name="P11">{基礎主軸-經典背誦努力程度}</text:p>
 							</table:table-cell>
 						</table:table-row>
+						<!-- 
 						<table:table-row>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
@@ -1657,6 +1658,7 @@
 								<text:p text:style-name="P11">{基礎主軸-書法硬筆字努力程度}</text:p>
 							</table:table-cell>
 						</table:table-row>
+						 -->
 						<table:table-row>
 							<table:table-cell table:style-name="Table5.A2"
 								table:value-type="string">
